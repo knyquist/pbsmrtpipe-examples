@@ -1,0 +1,55 @@
+{
+    "createdAt": "2016-06-14T11:41:42",
+    "files": [
+        {
+            "createdAt": "2016-06-14T11:41:41",
+            "description": "Master log",
+            "fileSize": 2109,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-14T11:41:41",
+            "name": "Master log file",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/logs/master.log",
+            "sourceId": "pbsmrtpipe::master.log",
+            "uniqueId": "a5c9a914-f79b-42ba-a552-cf9dc9238802"
+        },
+        {
+            "createdAt": "2016-06-14T11:41:42",
+            "description": "description for <FileType id=PacBio.FileTypes.txt name=file >",
+            "fileSize": 14,
+            "fileTypeId": "PacBio.FileTypes.txt",
+            "isChunked": false,
+            "modifiedAt": "2016-06-14T11:41:42",
+            "name": "<FileType id=PacBio.FileTypes.txt name=file >",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mk_example_txt-0/file.txt",
+            "sourceId": "pbsmrtpipe_examples.tasks.dev_mk_example_txt-PacBio.FileTypes.txt",
+            "uniqueId": "591e4038-134b-4d72-8323-516acddbb972"
+        },
+        {
+            "createdAt": "2016-06-14T11:41:40",
+            "description": "pbsmrtpipe log",
+            "fileSize": 0,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-14T11:41:40",
+            "name": "pbsmrtpipe log",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/logs/pbsmrtpipe.log",
+            "sourceId": "pbsmrtpipe::pbsmrtpipe.log",
+            "uniqueId": "08d5d4e5-abc6-47e2-974d-2b448c633157"
+        },
+        {
+            "createdAt": "2016-06-14T11:41:44",
+            "description": "description for <FileType id=PacBio.FileTypes.Fasta name=file >",
+            "fileSize": 570373,
+            "fileTypeId": "PacBio.FileTypes.Fasta",
+            "isChunked": false,
+            "modifiedAt": "2016-06-14T11:41:44",
+            "name": "<FileType id=PacBio.FileTypes.Fasta name=file >",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe.tasks.dev_txt_to_fasta-0/file.fasta",
+            "sourceId": "pbsmrtpipe.tasks.dev_txt_to_fasta-PacBio.FileTypes.Fasta",
+            "uniqueId": "78f82def-2e9f-441f-a722-95162a09d7b7"
+        }
+    ],
+    "updatedAt": "2016-06-14T11:41:46",
+    "version": "0.2.2"
+}

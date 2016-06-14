@@ -1,0 +1,165 @@
+{
+    "_changelist": "UNKNOWN",
+    "_version": "0.3.28",
+    "attributes": [
+        {
+            "id": "pbsmrtpipe.was_successful",
+            "name": "Was Successful",
+            "value": true
+        },
+        {
+            "id": "pbsmrtpipe.total_run_time_sec",
+            "name": "Walltime (sec)",
+            "value": 5
+        },
+        {
+            "id": "pbsmrtpipe.error_message",
+            "name": "Error Message",
+            "value": ""
+        },
+        {
+            "id": "pbsmrtpipe.job_id",
+            "name": "Job Id",
+            "value": 116899
+        },
+        {
+            "id": "pbsmrtpipe.job_state",
+            "name": "Job State",
+            "value": "successful"
+        },
+        {
+            "id": "pbsmrtpipe.job_output_dir",
+            "name": "Job Output Directory",
+            "value": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output"
+        },
+        {
+            "id": "pbsmrtpipe.pbsmrtpipe_version",
+            "name": "pbsmrtpipe Version",
+            "value": "0.40.1"
+        }
+    ],
+    "dataset_uuids": [],
+    "id": "pbsmrtpipe",
+    "plotGroups": [],
+    "tables": [
+        {
+            "columns": [
+                {
+                    "header": "Task id",
+                    "id": "pbsmrtpipe.tasks.task_id",
+                    "values": [
+                        "EntryPointNode eid_txt PacBio.FileTypes.txt",
+                        "TaskBindingNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0",
+                        "TaskBindingNode pbsmrtpipe.tasks.dev_txt_to_fasta-0"
+                    ]
+                },
+                {
+                    "header": "Was Successful",
+                    "id": "pbsmrtpipe.tasks.was_successful",
+                    "values": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                {
+                    "header": "Task State",
+                    "id": "pbsmrtpipe.tasks.state",
+                    "values": [
+                        "successful",
+                        "successful",
+                        "successful"
+                    ]
+                },
+                {
+                    "header": "Run Time (sec)",
+                    "id": "pbsmrtpipe.tasks.run_time_sec",
+                    "values": [
+                        1.0,
+                        1.04,
+                        2.14
+                    ]
+                },
+                {
+                    "header": "# of procs",
+                    "id": "pbsmrtpipe.tasks.nproc",
+                    "values": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.tasks",
+            "title": null
+        },
+        {
+            "columns": [
+                {
+                    "header": "Id",
+                    "id": "pbsmrtpipe.entry_points.id",
+                    "values": [
+                        "EntryOutBindingFileNode PacBio.FileTypes.txt eid_txt"
+                    ]
+                },
+                {
+                    "header": "Is Resolved",
+                    "id": "pbsmrtpipe.entry_points.is_resolved",
+                    "values": [
+                        true
+                    ]
+                },
+                {
+                    "header": "Path",
+                    "id": "pbsmrtpipe.entry_points.path",
+                    "values": [
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/input_file.txt"
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.entry_points",
+            "title": null
+        },
+        {
+            "columns": [
+                {
+                    "header": "Id",
+                    "id": "pbsmrtpipe.file_node.id",
+                    "values": [
+                        "EntryOutBindingFileNode PacBio.FileTypes.txt eid_txt",
+                        "BindingInFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0",
+                        "BindingOutFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0",
+                        "BindingInFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.txt-0.0",
+                        "BindingOutFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.Fasta-0.0"
+                    ]
+                },
+                {
+                    "header": "Is Resolved",
+                    "id": "pbsmrtpipe.file_node.is_resolved",
+                    "values": [
+                        true,
+                        true,
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                {
+                    "header": "Path",
+                    "id": "pbsmrtpipe.file_node.path",
+                    "values": [
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/input_file.txt",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/input_file.txt",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mk_example_txt-0/file.txt",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mk_example_txt-0/file.txt",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe.tasks.dev_txt_to_fasta-0/file.fasta"
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.file_node",
+            "title": null
+        }
+    ],
+    "title": "Report pbsmrtpipe",
+    "uuid": "06c53ef9-1a97-4004-a0bf-b36ff54ccc0f"
+}

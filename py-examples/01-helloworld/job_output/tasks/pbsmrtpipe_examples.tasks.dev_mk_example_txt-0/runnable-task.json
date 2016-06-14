@@ -1,0 +1,28 @@
+{
+    "cluster": null, 
+    "env": {}, 
+    "id": "pbsmrtpipe_examples.tasks.dev_mk_example_txt", 
+    "resource_types": [], 
+    "task": {
+        "cmds": [
+            "hello_world.py  run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mk_example_txt-0/resolved-tool-contract.json"
+        ], 
+        "input_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/input_file.txt"
+        ], 
+        "is_distributed": true, 
+        "nproc": 1, 
+        "options": {
+            "pbsmrtpipe_examples.task_options.alpha": 1234
+        }, 
+        "output_dir": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mk_example_txt-0", 
+        "output_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mk_example_txt-0/file.txt"
+        ], 
+        "resources": [], 
+        "task_id": "pbsmrtpipe_examples.tasks.dev_mk_example_txt", 
+        "task_type_id": "pbsmrtpipe_examples.tasks.dev_mk_example_txt", 
+        "uuid": "19fcacb6-4858-4fd7-935e-80295e16e205"
+    }, 
+    "version": "0.40.1"
+}

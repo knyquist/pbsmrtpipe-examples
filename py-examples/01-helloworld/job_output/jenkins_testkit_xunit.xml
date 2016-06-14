@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<testsuite errors="0" failures="0" name="01-helloworld" skip="2" tests="29">
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_datastore_json_01-helloworld" etype="" name="test_job_resource_workflow_files_datastore_json_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_job_resource_dir_exists_tasks_01-helloworld" etype="" name="test_job_resource_dir_exists_tasks_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_file_exists_job_stdout_01-helloworld" etype="" name="test_job_resource_file_exists_job_stdout_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_html_01-helloworld" etype="" name="test_job_resource_dir_exists_html_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_file_exists_job_stderr_01-helloworld" etype="" name="test_job_resource_file_exists_job_stderr_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_html_images_01-helloworld" etype="" name="test_job_resource_html_images_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_report_tasks_json_01-helloworld" etype="" name="test_job_resource_workflow_files_report_tasks_json_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_job_resource_dir_exists_html_01-helloworld" etype="" name="test_job_resource_dir_exists_html_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_path_exists_01-helloworld" etype="" name="test_job_path_exists_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreUuids.test_datastore_report_file_uuid_01-helloworld" etype="unittest.case.SkipTest" name="test_datastore_report_file_uuid_01-helloworld" result="skipped" text="">
+        <skipped message="No Report JSON files in datastore." type="unittest.case.SkipTest" />
+    </testcase>
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_options_task_json_01-helloworld" etype="" name="test_job_resource_workflow_files_options_task_json_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_load_datastore_from_file_01-helloworld" etype="" name="test_load_datastore_from_file_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreFileLabels.test_datastore_file_name_and_description_01-helloworld" etype="" name="test_datastore_file_name_and_description_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_html_css_01-helloworld" etype="" name="test_job_resource_html_css_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_workflow_01-helloworld" etype="" name="test_job_resource_dir_exists_workflow_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_options_workflow_json_01-helloworld" etype="" name="test_job_resource_workflow_files_options_workflow_json_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_zero.TestSmrtPipeReturnCode.test_a_workflow_was_successful_01-helloworld" etype="" name="test_a_workflow_was_successful_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_html_js_01-helloworld" etype="" name="test_job_resource_html_js_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_job_resource_dir_exists_workflow_01-helloworld" etype="" name="test_job_resource_dir_exists_workflow_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_entry_points_json_01-helloworld" etype="" name="test_job_resource_workflow_files_entry_points_json_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_zero.TestSmrtPipeReturnCode.test_no_errors_in_log_01-helloworld" etype="" name="test_no_errors_in_log_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreFiles.test_validators_datastore_file__pacbio_filetypes_jsonreport_01-helloworld" etype="" name="test_validators_datastore_file__pacbio_filetypes_jsonreport_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_tasks_01-helloworld" etype="" name="test_job_resource_dir_exists_tasks_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreUuids.test_datastore_dataset_file_uuid_01-helloworld" etype="unittest.case.SkipTest" name="test_datastore_dataset_file_uuid_01-helloworld" result="skipped" text="">
+        <skipped message="No DataSet XML files in datastore." type="unittest.case.SkipTest" />
+    </testcase>
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_logs_01-helloworld" etype="" name="test_job_resource_dir_exists_logs_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_workflow_png_01-helloworld" etype="" name="test_job_resource_workflow_files_workflow_png_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreFiles.test_validators_datastore_file__pacbio_filetypes_fasta_01-helloworld" etype="" name="test_validators_datastore_file__pacbio_filetypes_fasta_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_workflow_dot_01-helloworld" etype="" name="test_job_resource_workflow_files_workflow_dot_01-helloworld" result="success" text="" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_workflow_svg_01-helloworld" etype="" name="test_job_resource_workflow_files_workflow_svg_01-helloworld" result="success" text="" />
+</testsuite>

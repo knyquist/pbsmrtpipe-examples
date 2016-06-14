@@ -1,0 +1,25 @@
+{
+    "driver": {
+        "env": {},
+        "exe": "hello_world.py  run-rtc  ",
+        "serialization": "json"
+    },
+    "resolved_tool_contract": {
+        "_comment": "Created by pbcommand v0.3.28",
+        "input_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/input_file.txt"
+        ],
+        "is_distributed": false,
+        "log_level": "INFO",
+        "nproc": 1,
+        "options": {
+            "pbsmrtpipe_examples.task_options.alpha": 1234
+        },
+        "output_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/01-helloworld/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mk_example_txt-0/file.txt"
+        ],
+        "resources": [],
+        "task_type": "pbsmrtpipe.task_types.standard",
+        "tool_contract_id": "pbsmrtpipe_examples.tasks.dev_mk_example_txt"
+    }
+}

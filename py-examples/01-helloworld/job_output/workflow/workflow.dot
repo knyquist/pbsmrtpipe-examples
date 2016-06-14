@@ -1,0 +1,17 @@
+strict digraph G {
+"TaskBindingNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0" [ color=aquamarine style=filled fillcolor=aquamarine shape=octagon ] ;
+"TaskBindingNode pbsmrtpipe.tasks.dev_txt_to_fasta-0" [ color=aquamarine style=filled fillcolor=aquamarine shape=octagon ] ;
+"EntryPointNode eid_txt PacBio.FileTypes.txt" [ color=mediumpurple style=filled fillcolor=mediumpurple shape=diamond ] ;
+"BindingOutFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0" [ color=azure style=filled fillcolor=azure shape=octagon ] ;
+"BindingInFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.txt-0.0" [ color=azure style=filled fillcolor=azure shape=ellipse ] ;
+"BindingOutFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.Fasta-0.0" [ color=azure style=filled fillcolor=azure shape=octagon ] ;
+"BindingInFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0" [ color=azure style=filled fillcolor=azure shape=ellipse ] ;
+"EntryOutBindingFileNode PacBio.FileTypes.txt eid_txt" [ color=azure style=filled fillcolor=azure shape=rectangle ] ;
+"TaskBindingNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0" -> "BindingOutFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0" ;
+"TaskBindingNode pbsmrtpipe.tasks.dev_txt_to_fasta-0" -> "BindingOutFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.Fasta-0.0" ;
+"EntryPointNode eid_txt PacBio.FileTypes.txt" -> "EntryOutBindingFileNode PacBio.FileTypes.txt eid_txt" ;
+"BindingOutFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0" -> "BindingInFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.txt-0.0" ;
+"BindingInFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.txt-0.0" -> "TaskBindingNode pbsmrtpipe.tasks.dev_txt_to_fasta-0" ;
+"BindingInFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0" -> "TaskBindingNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0" ;
+"EntryOutBindingFileNode PacBio.FileTypes.txt eid_txt" -> "BindingInFileNode pbsmrtpipe_examples.tasks.dev_mk_example_txt-0 PacBio.FileTypes.txt-0.0" ;
+}
