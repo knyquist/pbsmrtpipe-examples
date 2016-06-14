@@ -1,0 +1,18 @@
+<RunnableTask pbsmrtpipe_examples.tasks.dev_interact_with_sset task type True ncommands 1 nresources 0 >
+Created at 2016-06-14 16:12:16.350013 on login14-biofx03
+Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml
+Starting to run 1 cmds.[INFO] 2016-06-14 23:12:17,383Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
+[INFO] 2016-06-14 23:12:17,383Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples interact_with_sset.py  tool-contracts:1 >
+[INFO] 2016-06-14 23:12:17,384Z [pbcommand.cli.quick _w 233] Setting log-level to 20
+[INFO] 2016-06-14 23:12:17,384Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/resolved-tool-contract.json
+[INFO] 2016-06-14 23:12:17,385Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_interact_with_sset Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_interact_with_sset >
+[INFO] 2016-06-14 23:12:17,385Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7ff6e5b24e60>
+[INFO] 2016-06-14 23:12:17,385Z [__main__ run_rtc 60] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
+[INFO] 2016-06-14 23:12:17,385Z [__main__ run_rtc 61] Got nproc 1
+[INFO] 2016-06-14 23:12:17,385Z [__main__ _example_main 36] Running example main with /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv kw:{'alpha': 1234, 'nproc': 1}
+[INFO] 2016-06-14 23:12:17,385Z [__main__ _example_main 39] Attempting to open SubreadSet input with pbcore.io.BamIO
+[INFO] 2016-06-14 23:12:17,477Z [__main__ _example_main 45] Attempting to write simple information from the SubreadSet to CSV output
+[INFO] 2016-06-14 23:12:17,481Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_interact_with_sset > exitcode 0 in 0.10 sec.
+completed running cmd 1 of 1. exit code 0 in 2.12 sec on host login14-biofx03
+Successfully validated 0 output file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv' on login14-biofx03 
+Writing task id pbsmrtpipe_examples.tasks.dev_interact_with_sset task report to /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/task-report.json

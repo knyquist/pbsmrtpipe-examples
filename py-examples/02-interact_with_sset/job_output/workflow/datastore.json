@@ -1,0 +1,43 @@
+{
+    "createdAt": "2016-06-14T16:12:15",
+    "files": [
+        {
+            "createdAt": "2016-06-14T16:12:14",
+            "description": "pbsmrtpipe log",
+            "fileSize": 0,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-14T16:12:14",
+            "name": "pbsmrtpipe log",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/logs/pbsmrtpipe.log",
+            "sourceId": "pbsmrtpipe::pbsmrtpipe.log",
+            "uniqueId": "abbb30ad-2b27-4d3d-aa67-f4ca82580d90"
+        },
+        {
+            "createdAt": "2016-06-14T16:12:14",
+            "description": "Master log",
+            "fileSize": 2173,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-14T16:12:14",
+            "name": "Master log file",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/logs/master.log",
+            "sourceId": "pbsmrtpipe::master.log",
+            "uniqueId": "63074f94-32d2-4f0e-8a4f-30b5e5064a85"
+        },
+        {
+            "createdAt": "2016-06-14T16:12:17",
+            "description": "description for <FileType id=PacBio.FileTypes.csv name=file >",
+            "fileSize": 32,
+            "fileTypeId": "PacBio.FileTypes.csv",
+            "isChunked": false,
+            "modifiedAt": "2016-06-14T16:12:17",
+            "name": "<FileType id=PacBio.FileTypes.csv name=file >",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv",
+            "sourceId": "pbsmrtpipe_examples.tasks.dev_interact_with_sset-PacBio.FileTypes.csv",
+            "uniqueId": "0caa3c9f-85b8-4b3b-9095-3ec4da95525c"
+        }
+    ],
+    "updatedAt": "2016-06-14T16:12:18",
+    "version": "0.2.2"
+}

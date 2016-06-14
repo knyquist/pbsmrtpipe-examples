@@ -1,0 +1,388 @@
+log_filter kw is no longer supported
+Starting pbsmrtpipe v0.40.1
+Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_xml', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7ff384040c08>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml'], service_uri=None)
+Starting tool version 0.40.1
+Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_xml', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7ff384040c08>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml'], service_uri=None)
+Loading static meta tasks from /home/knyquist/anaconda2/envs/home/lib/python2.7/site-packages/pbsmrtpipe-0.40.1-py2.7.egg/pbsmrtpipe/registered_tool_contracts_sa3
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon0_run_daligner_jobs v0.0.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.isoseq_cluster v0.1.0.132615 inputs:2 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.h5_subreadset_scatter v0.1.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.ice_cleanup v1.0.0.177551 inputs:2 outputs:1 resources:1 >
+<ScatterToolContractMetaTask id:pbtranscript.tasks.scatter_cluster_bins v0.1.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon1_run_daligner_jobs v0.0.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.bam2fasta_archive v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.filterdataset v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon2_run_asm v0.0.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.bam2fasta_ccs v0.1.0 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_subreadset v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.modifications_report v2.1 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_fasta v0.1.3 inputs:1 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbtranscript.tasks.scatter_ice_polish_cluster_bins v0.1.0 inputs:3 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.barcode_report v0.6 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.bam2fasta v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_hgap_prepare v1.0.0 inputs:1 outputs:2 resources:0 >
+<GatherToolContractMetaTask id:pbtranscript.tasks.gather_nfl_pickle v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:kinetics_tools.tasks.ipd_summary v2.2 inputs:2 outputs:2 resources:0 >
+<ToolContractMetaTask id:pbcommandR.tasks.hello_reseq_condition v0.3.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon_config_get_fasta v0.0.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon_config v0.0.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.mapping_stats_ccs v0.1 inputs:1 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.subreadset_align_scatter v0.1.3 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon1_run_merge_consensus_jobs v0.0.0 inputs:3 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.summarize_coverage v0.3.0 inputs:2 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_ccsset v0.1.0 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_txt v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.isoseq_classify v0.1.0.132615 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.ccs_report v0.44 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommandR.tasks.fasta_report v0.3.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.fasta2referenceset v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon_gen_config v1.0.0 inputs:1 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbtranscript.tasks.scatter_contigset v0.1.0 inputs:3 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbtranscript.tasks.scatter_clusters v0.1.0 inputs:4 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.variants_report v0.1 inputs:3 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommandR.tasks.hello_world v0.3.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.create_chunks v0.1.0 inputs:2 outputs:3 resources:0 >
+<ToolContractMetaTask id:pblaa.tasks.laa v0.1 inputs:1 outputs:3 resources:0 >
+<GatherToolContractMetaTask id:pbfalcon.tasks.gather1_run_daligner_jobs v0.1.3 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbfalcon.tasks.gather0_run_daligner_jobs v0.1.3 inputs:1 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.ccsset_align_scatter v0.1.3 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbalign.tasks.pbalign v3.0 inputs:2 outputs:1 resources:1 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.subreadset_zmw_scatter v0.1.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.separate_flnc v1.0.0.177015 inputs:1 outputs:1 resources:1 >
+<ToolContractMetaTask id:pbtranscript.tasks.ice_quiver v1.0.0.174838 inputs:4 outputs:1 resources:1 >
+<GatherToolContractMetaTask id:pbtranscript.tasks.gather_isoseq_classify_report v0.1.0 inputs:1 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.alignment_contig_scatter v0.1.3 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommandR.tasks.filter_fasta v0.3.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.bam2fastq_archive v0.1.0 inputs:1 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.subreadset_bam_scatter v0.1.3 inputs:2 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.scatter_contigset v0.1.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.filter_stats_report_xml v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.h5_subreads_to_subread v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:genomic_consensus.tasks.gff2bed v3.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.combine_cluster_bins v1.0.0.177015 inputs:2 outputs:7 resources:1 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.dev_scatter_filter_fasta v0.1.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.loading_report_xml v0.1.0 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_gff v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.summarize_coverage_ccs v0.1 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:motif_maker.tasks.find_motifs v0.1 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbinternal2.tasks.cond_to_report v0.2.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommandR.tasks.accplot_reseq_condition v0.3.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.ice_partial v1.0.0.174838 inputs:3 outputs:1 resources:1 >
+<ToolContractMetaTask id:pbreports.tasks.coverage_report v0.1 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.ice_partial_cluster_bins v1.0.0.177015 inputs:3 outputs:1 resources:1 >
+<ToolContractMetaTask id:pbcoretools.tasks.bam2fastq_ccs v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:genomic_consensus.tasks.variantcaller v2.0.0 inputs:2 outputs:3 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.fasta_to_reference v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommandR.tasks.hello_reseq_condition_report v0.3.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.gather_ice_partial_cluster_bins_pickle v0.1.0 inputs:2 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbfalcon.tasks.scatter0_run_daligner_jobs v0.1.3 inputs:2 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.ccsset_zmw_scatter v0.1.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.ice_polish_cluster_bins v1.0.0.177015 inputs:3 outputs:1 resources:1 >
+<ToolContractMetaTask id:genomic_consensus.tasks.gff2vcf v3.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbscala.tasks.rs_movie_to_ds_rtc v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon_make_fofn_abs v0.0.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.polished_assembly v0.4 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon0_build_rdb v0.0.0 inputs:2 outputs:3 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon0_run_merge_consensus_jobs v0.0.0 inputs:3 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.adapter_report_xml v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.fasta2fofn v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:kinetics_tools.tasks.summarize_modifications v1.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.gmap v0.1.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.classify v1.0.0.177900 inputs:1 outputs:5 resources:1 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_falcon1_build_pdb v0.0.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbccs.tasks.ccs v0.1 inputs:1 outputs:2 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.subreadset_barcode_scatter v0.1.3 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_ccs_alignmentset v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_report_preassembly_yield v0.0.0 inputs:3 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_alignmentset v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.amplicon_analysis_consensus v0.3.1 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_report v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbinternal2.tasks.cond_to_alignmentsets_report v0.2.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:motif_maker.tasks.reprocess v0.1 inputs:3 outputs:1 resources:0 >
+<ToolContractMetaTask id:falcon_ns.tasks.task_hgap_run v0.0.0 inputs:3 outputs:3 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.bam2bam_barcode v0.1.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.top_variants v0.1 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbalign.tasks.pbalign_ccs v3.0 inputs:2 outputs:1 resources:1 >
+<ToolContractMetaTask id:pbreports.tasks.mapping_stats v4.2.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:genomic_consensus.tasks.summarize_consensus v2.0.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbalign.tasks.consolidate_alignments v0.1.0 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_csv v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.ice_quiver_postprocess v1.0.0.174838 inputs:5 outputs:6 resources:1 >
+<ToolContractMetaTask id:pbtranscript.tasks.cluster v1.0.0.174838 inputs:4 outputs:4 resources:1 >
+<ScatterToolContractMetaTask id:pbtranscript.tasks.scatter_ice_partial_cluster_bins v0.1.0 inputs:3 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.cluster_bins v1.0.0.177015 inputs:2 outputs:1 resources:1 >
+<ScatterToolContractMetaTask id:pbfalcon.tasks.scatter1_run_daligner_jobs v0.1.3 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.sat_report v0.1 inputs:3 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcoretools.tasks.alignment_contig_scatter_basemods v0.1.3 inputs:2 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_json v0.1.0 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_contigset v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcoretools.tasks.bam2fastq v0.1.0 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcoretools.tasks.gather_fastq v0.1.3 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbreports.tasks.motifs_report v2.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbtranscript.tasks.gather_polished_isoforms_in_each_bin v0.1.0 inputs:2 outputs:1 resources:0 >
+Loading static meta tasks from /home/knyquist/anaconda2/envs/home/lib/python2.7/site-packages/pbsmrtpipe-0.40.1-py2.7.egg/pbsmrtpipe/registered_tool_contracts
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_py_filter_fasta v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommand.tasks.dev_txt_custom_outs v0.1.0 inputs:1 outputs:2 resources:0 >
+<ToolContractMetaTask id:pbcommand.tasks.dev_qhello_world v0.2.1 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_hello_worlder v0.2.1 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_fofn_example v0.1.0 inputs:2 outputs:1 resources:0 >
+<ScatterToolContractMetaTask id:pbcommand.tasks.dev_scatter_fasta v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_reference_ds_report v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_txt_to_fofn_report v0.1.0 inputs:1 outputs:2 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_simple_hello_world v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_hello_lasagna v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommand.tasks.dev_txt_app v0.1.0 inputs:1 outputs:1 resources:3 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_raises_exception v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_subread_report v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommand.tasks.dev_txt_hello v0.1.0 inputs:1 outputs:2 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_hello_distributed v0.1.0 inputs:2 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_fastq_to_fasta v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_tc_fasta_report v0.1.1 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommand.tasks.dev_app v0.2.1 inputs:1 outputs:1 resources:3 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_txt_to_fasta v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_filter_fasta v0.1.1 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_hello_world v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_fasta v0.2.1 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbcommand.tasks.dev_fastq2fasta v0.1.0 inputs:1 outputs:1 resources:0 >
+<GatherToolContractMetaTask id:pbcommand.tasks.dev_gather_fasta v0.1.0 inputs:1 outputs:1 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_hello_garfield v0.2.1 inputs:1 outputs:2 resources:0 >
+<ToolContractMetaTask id:pbsmrtpipe.tasks.dev_txt_to_fofn v1.0.0 inputs:1 outputs:1 resources:0 >
+Loaded 17 operators from pbsmrtpipe.chunk_operators -> /home/knyquist/anaconda2/envs/home/lib/python2.7/site-packages/pbsmrtpipe-0.40.1-py2.7.egg/pbsmrtpipe/chunk_operators
+Processing pipeline pbsmrtpipe.pipelines.sa3_fetch
+registering pipeline pbsmrtpipe.pipelines.sa3_fetch
+Processing pipeline pbsmrtpipe.pipelines.sa3_align
+registering pipeline pbsmrtpipe.pipelines.sa3_align
+Processing pipeline pbsmrtpipe.pipelines.sa3_resequencing
+registering pipeline pbsmrtpipe.pipelines.sa3_resequencing
+[Loading entry points] from pbsmrtpipe.pipelines.sa3_align into pbsmrtpipe.pipelines.sa3_resequencing
+[Loading bindings]
+Processing pipeline pbsmrtpipe.pipelines.sa3_hdfsubread_to_subread
+registering pipeline pbsmrtpipe.pipelines.sa3_hdfsubread_to_subread
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_align
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_align
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_align_unrolled
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_align_unrolled
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_genomic_consensus
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_genomic_consensus
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_resequencing
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_resequencing
+[Loading entry points] from pbsmrtpipe.pipelines.sa3_ds_align into pbsmrtpipe.pipelines.sa3_ds_resequencing
+[Loading bindings]
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_resequencing_fat
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_resequencing_fat
+Processing pipeline pbsmrtpipe.pipelines.ds_modification_detection
+registering pipeline pbsmrtpipe.pipelines.ds_modification_detection
+Processing pipeline pbsmrtpipe.pipelines.ds_modification_motif_analysis
+registering pipeline pbsmrtpipe.pipelines.ds_modification_motif_analysis
+[Loading entry points] from pbsmrtpipe.pipelines.ds_modification_detection into pbsmrtpipe.pipelines.ds_modification_motif_analysis
+[Loading bindings]
+Skipping loading. Pipeline was already loaded
+Processing pipeline pbsmrtpipe.pipelines.pb_modification_detection
+registering pipeline pbsmrtpipe.pipelines.pb_modification_detection
+Processing pipeline pbsmrtpipe.pipelines.pb_modification_motif_analysis
+[Loading entry points] from pbsmrtpipe.pipelines.pb_modification_detection into pbsmrtpipe.pipelines.pb_modification_motif_analysis
+[Loading bindings]
+registering pipeline pbsmrtpipe.pipelines.pb_modification_motif_analysis
+Skipping loading. Pipeline was already loaded
+Processing pipeline pbsmrtpipe.pipelines.sa3_sat
+[Loading entry points] from pbsmrtpipe.pipelines.sa3_ds_resequencing_fat into pbsmrtpipe.pipelines.sa3_sat
+[Loading bindings]
+registering pipeline pbsmrtpipe.pipelines.sa3_sat
+Skipping loading. Pipeline was already loaded
+Skipping loading. Pipeline was already loaded
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_laa
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_laa
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_barcode
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_barcode
+Processing pipeline pbsmrtpipe.pipelines.pb_ds_barcode_laa
+registering pipeline pbsmrtpipe.pipelines.pb_ds_barcode_laa
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_ccs
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_ccs
+Processing pipeline pbsmrtpipe.pipelines.pb_ds_barcode_ccs
+registering pipeline pbsmrtpipe.pipelines.pb_ds_barcode_ccs
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_ccs_align
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_ccs_align
+[Loading entry points] from pbsmrtpipe.pipelines.sa3_ds_ccs into pbsmrtpipe.pipelines.sa3_ds_ccs_align
+[Loading bindings]
+Processing pipeline pbsmrtpipe.pipelines.pb_ccs_align
+registering pipeline pbsmrtpipe.pipelines.pb_ccs_align
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_isoseq_classify
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_isoseq_classify
+[Loading entry points] from pbsmrtpipe.pipelines.sa3_ds_ccs into pbsmrtpipe.pipelines.sa3_ds_isoseq_classify
+[Loading bindings]
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_isoseq
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_isoseq
+[Loading entry points] from pbsmrtpipe.pipelines.sa3_ds_ccs into pbsmrtpipe.pipelines.sa3_ds_isoseq
+[Loading bindings]
+Skipping loading. Pipeline was already loaded
+Skipping loading. Pipeline was already loaded
+Processing pipeline pbsmrtpipe.pipelines.pb_isoseq
+registering pipeline pbsmrtpipe.pipelines.pb_isoseq
+Processing pipeline pbsmrtpipe.pipelines.pb_isoseq_cluster
+registering pipeline pbsmrtpipe.pipelines.pb_isoseq_cluster
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_subreads_to_fastx
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_subreads_to_fastx
+Processing pipeline pbsmrtpipe.pipelines.sa3_ds_fasta_to_reference
+registering pipeline pbsmrtpipe.pipelines.sa3_ds_fasta_to_reference
+Processing pipeline pbsmrtpipe.pipelines.dev_local
+registering pipeline pbsmrtpipe.pipelines.dev_local
+Processing pipeline pbsmrtpipe.pipelines.dev_01
+registering pipeline pbsmrtpipe.pipelines.dev_01
+Processing pipeline pbsmrtpipe.pipelines.dev_01_fail
+registering pipeline pbsmrtpipe.pipelines.dev_01_fail
+Processing pipeline pbsmrtpipe.pipelines.dev_01_ds
+registering pipeline pbsmrtpipe.pipelines.dev_01_ds
+Processing pipeline pbsmrtpipe.pipelines.dev_02
+[Loading entry points] from pbsmrtpipe.pipelines.dev_01 into pbsmrtpipe.pipelines.dev_02
+[Loading bindings]
+entry points -> pipeline:$entry format 'pbsmrtpipe.pipelines.dev_01:$entry:e_01'
+(re-bind) entry points need to load exiting pipeline for tasks and entry points
+registering pipeline pbsmrtpipe.pipelines.dev_02
+Skipping loading. Pipeline was already loaded
+Processing pipeline pbsmrtpipe.pipelines.dev_03
+[Loading entry points] from pbsmrtpipe.pipelines.dev_02 into pbsmrtpipe.pipelines.dev_03
+[Loading bindings]
+registering pipeline pbsmrtpipe.pipelines.dev_03
+Skipping loading. Pipeline was already loaded
+entry points -> pipeline:$entry format 'pbsmrtpipe.pipelines.dev_02:$entry:e_txt'
+(re-bind) entry points need to load exiting pipeline for tasks and entry points
+Processing pipeline pbsmrtpipe.pipelines.dev_04
+[Loading entry points] from pbsmrtpipe.pipelines.dev_03 into pbsmrtpipe.pipelines.dev_04
+[Loading bindings]
+registering pipeline pbsmrtpipe.pipelines.dev_04
+Skipping loading. Pipeline was already loaded
+entry points -> pipeline:$entry format 'pbsmrtpipe.pipelines.dev_03:$entry:e_txt2'
+(re-bind) entry points need to load exiting pipeline for tasks and entry points
+Skipping loading. Pipeline was already loaded
+Processing pipeline pbsmrtpipe.pipelines.dev_04_w_static_task
+[Loading entry points] from pbsmrtpipe.pipelines.dev_03 into pbsmrtpipe.pipelines.dev_04_w_static_task
+[Loading bindings]
+entry points -> pipeline:$entry format 'pbsmrtpipe.pipelines.dev_03:$entry:e_txt2'
+(re-bind) entry points need to load exiting pipeline for tasks and entry points
+registering pipeline pbsmrtpipe.pipelines.dev_04_w_static_task
+Skipping loading. Pipeline was already loaded
+Processing pipeline pbsmrtpipe.pipelines.dev_local_chunk
+registering pipeline pbsmrtpipe.pipelines.dev_local_chunk
+Processing pipeline pbsmrtpipe.pipelines.dev_local_fasta_chunk
+registering pipeline pbsmrtpipe.pipelines.dev_local_fasta_chunk
+[Loading entry points] from pbsmrtpipe.pipelines.dev_03 into pbsmrtpipe.pipelines.dev_local_fasta_chunk
+[Loading bindings]
+Processing pipeline pbsmrtpipe.pipelines.dev_dist
+registering pipeline pbsmrtpipe.pipelines.dev_dist
+Processing pipeline pbsmrtpipe.pipelines.dev_diagnostic
+registering pipeline pbsmrtpipe.pipelines.dev_diagnostic
+Processing pipeline pbsmrtpipe.pipelines.pipe_falcon_with_fofn
+registering pipeline pbsmrtpipe.pipelines.pipe_falcon_with_fofn
+Processing pipeline pbsmrtpipe.pipelines.pipe_falcon
+registering pipeline pbsmrtpipe.pipelines.pipe_falcon
+Processing pipeline pbsmrtpipe.pipelines.polished_falcon
+registering pipeline pbsmrtpipe.pipelines.polished_falcon
+Processing pipeline pbsmrtpipe.pipelines.polished_falcon_lean
+registering pipeline pbsmrtpipe.pipelines.polished_falcon_lean
+Processing pipeline pbsmrtpipe.pipelines.polished_falcon_fat
+registering pipeline pbsmrtpipe.pipelines.polished_falcon_fat
+Processing pipeline pbsmrtpipe.pipelines.hgap_cmd
+registering pipeline pbsmrtpipe.pipelines.hgap_cmd
+Processing pipeline pbsmrtpipe.pipelines.hgap_lean
+registering pipeline pbsmrtpipe.pipelines.hgap_lean
+Processing pipeline pbsmrtpipe.pipelines.hgap_fat
+registering pipeline pbsmrtpipe.pipelines.hgap_fat
+Processing pipeline pbsmrtpipe.pipelines.internal_cond_dev
+registering pipeline pbsmrtpipe.pipelines.internal_cond_dev
+Processing pipeline pbsmrtpipe.pipelines.internal_cond_dev2
+registering pipeline pbsmrtpipe.pipelines.internal_cond_dev2
+Processing pipeline pbsmrtpipe.pipelines.internal_cond_dev_r
+registering pipeline pbsmrtpipe.pipelines.internal_cond_dev_r
+Processing pipeline pbsmrtpipe.pipelines.internal_cond_dev_r_reports
+registering pipeline pbsmrtpipe.pipelines.internal_cond_dev_r_reports
+Processing pipeline pbsmrtpipe.pipelines.internal_cond_acc_density
+registering pipeline pbsmrtpipe.pipelines.internal_cond_acc_density
+Registry Loaded. Number of ToolContracts:145 FileTypes:57 ChunkOperators:17 Pipelines:52
+{'eid_xml': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml'}
+validating entry points.
+successfully validated 1 entry points
+Unable to find preset.xml from ENV 'PB_SMRTPIPE_XML_PRESET'
+Loading workflow template.
+successfully loaded workflow template.
+Loading preset(s) ['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml']
+successfully loaded preset.
+distribute_mode is False, Disabling cluster manager, running in LOCAL ONLY mode.
+Successfully validated workflow options.
+validating supplied task options.
+Unknown option 'pbsmrtpipe.task_options.option_id1'. Ignoring
+Unknown option 'pbsmrtpipe.task_options.option_id2'. Ignoring
+Unknown option 'pbsmrtpipe.task_options.dev.hello_message'. Ignoring
+successfully validated (pre DI) task options.
+local-only mode updating       MAX NPROC to 16
+local-only mode updating TOTAL MAX NPROC to 16
+overriding debug-mode to True
+Resolved workflow level options to <WorkflowLevelOptions chunk:24 nproc:16 workers:100 cluster:None>
+
+{   'pbsmrtpipe.options.chunk_mode': False,
+    'pbsmrtpipe.options.cluster_manager': None,
+    'pbsmrtpipe.options.debug_mode': True,
+    'pbsmrtpipe.options.distributed_mode': False,
+    'pbsmrtpipe.options.exit_on_failure': False,
+    'pbsmrtpipe.options.max_nchunks': 24,
+    'pbsmrtpipe.options.max_nproc': 16,
+    'pbsmrtpipe.options.max_nworkers': 100,
+    'pbsmrtpipe.options.max_total_nproc': 16,
+    'pbsmrtpipe.options.progress_status_url': None,
+    'pbsmrtpipe.options.tmp_dir': '/tmp'}
+Initial resolving of loaded preset.xml and pipeline.xml task options:
+
+{'pbsmrtpipe.task_options.dev.hello_message': None,
+ 'pbsmrtpipe.task_options.option_id1': None,
+ 'pbsmrtpipe.task_options.option_id2': None}
+building graph
+('Binding parsed ', 'pbsmrtpipe_examples.tasks.dev_interact_with_sset:0', 'pbsmrtpipe_examples.tasks.dev_interact_with_sset', 0, 0)
+Binding parsed $entry:eid_xml -> pbsmrtpipe_examples.tasks.dev_interact_with_sset:0 successfully
+successfully loaded graph from bindings.
+Chunk mode is False. Disabling 17 chunk operators.
+Initializing Workflow
+creating job resources in /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output
+successfully initialized datastore.
+Command: /home/knyquist/anaconda2/envs/home/bin/pbsmrtpipe pipeline /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/pipeline.xml --debug -e eid_xml:/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml --preset-xml=/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml --output-dir=/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output
+Entry Points:
+
+{   'eid_xml': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml'}
+Workflow Options:
+
+{   'pbsmrtpipe.options.chunk_mode': False,
+    'pbsmrtpipe.options.cluster_manager': None,
+    'pbsmrtpipe.options.debug_mode': True,
+    'pbsmrtpipe.options.distributed_mode': False,
+    'pbsmrtpipe.options.exit_on_failure': False,
+    'pbsmrtpipe.options.max_nchunks': 24,
+    'pbsmrtpipe.options.max_nproc': 16,
+    'pbsmrtpipe.options.max_nworkers': 100,
+    'pbsmrtpipe.options.max_total_nproc': 16,
+    'pbsmrtpipe.options.progress_status_url': None,
+    'pbsmrtpipe.options.tmp_dir': '/tmp'}
+Task Options:
+
+{   'pbsmrtpipe.task_options.dev.hello_message': None,
+    'pbsmrtpipe.task_options.option_id1': None,
+    'pbsmrtpipe.task_options.option_id2': None}
+completed setting up job directory resources and logs in /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output
+successfully created job resources.
+starting to execute Distributed workflow with assigned job_id 678139
+system Linux login14-biofx03 nproc:16
+exe'ing workflow Cluster renderer None
+Service URI: None <type 'NoneType'> (fqdn = login14-biofx03.nanofluidics.com)
+Max number of Chunks  24
+Max number of nproc   16
+Max number of workers 100
+tmp dir               /tmp
+Unable to find any chunkable tasks from 0 chunk operators.
+validating binding graph
+successfully validated binding graph.
+Starting worker pbsmrtpipe_examples.tasks.dev_interact_with_sset-0 (1 workers running, 1 total proc in use)
+calling cmd 'interact_with_sset.py  run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/resolved-tool-contract.json' on login14-biofx03
+ pid=10069
+Task was successful TaskResult(task_id='pbsmrtpipe_examples.tasks.dev_interact_with_sset-0', state='successful', error_message='', run_time_sec=2.14)
+Validating task pbsmrtpipe_examples.tasks.dev_interact_with_sset output files ['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv']
+Successfully validated outputs of <TaskBindingNode pbsmrtpipe_examples.tasks.dev_interact_with_sset-0>
+Workflow status 2/2 completed/total tasks
+Shutting down.
+Completed execution pbsmrtpipe v0.40.1. Workflow was Successful in 4.56 sec (0.08 min)

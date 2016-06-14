@@ -1,0 +1,28 @@
+{
+    "cluster": null, 
+    "env": {}, 
+    "id": "pbsmrtpipe_examples.tasks.dev_interact_with_sset", 
+    "resource_types": [], 
+    "task": {
+        "cmds": [
+            "interact_with_sset.py  run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/resolved-tool-contract.json"
+        ], 
+        "input_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml"
+        ], 
+        "is_distributed": true, 
+        "nproc": 1, 
+        "options": {
+            "pbsmrtpipe_examples.task_options.alpha": 1234
+        }, 
+        "output_dir": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0", 
+        "output_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv"
+        ], 
+        "resources": [], 
+        "task_id": "pbsmrtpipe_examples.tasks.dev_interact_with_sset", 
+        "task_type_id": "pbsmrtpipe_examples.tasks.dev_interact_with_sset", 
+        "uuid": "0c84d2d5-a07a-4ffc-8da3-88c477019c35"
+    }, 
+    "version": "0.40.1"
+}

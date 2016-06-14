@@ -1,0 +1,154 @@
+{
+    "_changelist": "UNKNOWN",
+    "_version": "0.3.28",
+    "attributes": [
+        {
+            "id": "pbsmrtpipe.was_successful",
+            "name": "Was Successful",
+            "value": true
+        },
+        {
+            "id": "pbsmrtpipe.total_run_time_sec",
+            "name": "Walltime (sec)",
+            "value": 4
+        },
+        {
+            "id": "pbsmrtpipe.error_message",
+            "name": "Error Message",
+            "value": ""
+        },
+        {
+            "id": "pbsmrtpipe.job_id",
+            "name": "Job Id",
+            "value": 678139
+        },
+        {
+            "id": "pbsmrtpipe.job_state",
+            "name": "Job State",
+            "value": "successful"
+        },
+        {
+            "id": "pbsmrtpipe.job_output_dir",
+            "name": "Job Output Directory",
+            "value": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output"
+        },
+        {
+            "id": "pbsmrtpipe.pbsmrtpipe_version",
+            "name": "pbsmrtpipe Version",
+            "value": "0.40.1"
+        }
+    ],
+    "dataset_uuids": [],
+    "id": "pbsmrtpipe",
+    "plotGroups": [],
+    "tables": [
+        {
+            "columns": [
+                {
+                    "header": "Task id",
+                    "id": "pbsmrtpipe.tasks.task_id",
+                    "values": [
+                        "EntryPointNode eid_xml PacBio.DataSet.SubreadSet",
+                        "TaskBindingNode pbsmrtpipe_examples.tasks.dev_interact_with_sset-0"
+                    ]
+                },
+                {
+                    "header": "Was Successful",
+                    "id": "pbsmrtpipe.tasks.was_successful",
+                    "values": [
+                        true,
+                        true
+                    ]
+                },
+                {
+                    "header": "Task State",
+                    "id": "pbsmrtpipe.tasks.state",
+                    "values": [
+                        "successful",
+                        "successful"
+                    ]
+                },
+                {
+                    "header": "Run Time (sec)",
+                    "id": "pbsmrtpipe.tasks.run_time_sec",
+                    "values": [
+                        1.0,
+                        2.14
+                    ]
+                },
+                {
+                    "header": "# of procs",
+                    "id": "pbsmrtpipe.tasks.nproc",
+                    "values": [
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.tasks",
+            "title": null
+        },
+        {
+            "columns": [
+                {
+                    "header": "Id",
+                    "id": "pbsmrtpipe.entry_points.id",
+                    "values": [
+                        "EntryOutBindingFileNode PacBio.DataSet.SubreadSet eid_xml"
+                    ]
+                },
+                {
+                    "header": "Is Resolved",
+                    "id": "pbsmrtpipe.entry_points.is_resolved",
+                    "values": [
+                        true
+                    ]
+                },
+                {
+                    "header": "Path",
+                    "id": "pbsmrtpipe.entry_points.path",
+                    "values": [
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml"
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.entry_points",
+            "title": null
+        },
+        {
+            "columns": [
+                {
+                    "header": "Id",
+                    "id": "pbsmrtpipe.file_node.id",
+                    "values": [
+                        "EntryOutBindingFileNode PacBio.DataSet.SubreadSet eid_xml",
+                        "BindingInFileNode pbsmrtpipe_examples.tasks.dev_interact_with_sset-0 PacBio.DataSet.SubreadSet-0.0",
+                        "BindingOutFileNode pbsmrtpipe_examples.tasks.dev_interact_with_sset-0 PacBio.FileTypes.csv-0.0"
+                    ]
+                },
+                {
+                    "header": "Is Resolved",
+                    "id": "pbsmrtpipe.file_node.is_resolved",
+                    "values": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                {
+                    "header": "Path",
+                    "id": "pbsmrtpipe.file_node.path",
+                    "values": [
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv"
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.file_node",
+            "title": null
+        }
+    ],
+    "title": "Report pbsmrtpipe",
+    "uuid": "6277fb35-3421-4cb9-8466-623af4916c7d"
+}

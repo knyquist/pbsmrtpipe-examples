@@ -1,0 +1,55 @@
+{
+    "_comment": "Updated at 2016-06-14 16:12:19.307571", 
+    "edges": null, 
+    "nedges": 0, 
+    "nnodes": 5, 
+    "nodes": [
+        {
+            "is_resolved": true, 
+            "klass": "EntryOutBindingFileNode", 
+            "node_id": "eid_xml.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml", 
+            "resolved_at": null
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "BindingInFileNode", 
+            "node_id": "PacBio.DataSet.SubreadSet-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml", 
+            "resolved_at": null
+        }, 
+        {
+            "chunk_group_id": null, 
+            "chunk_keys": [], 
+            "cmds": [], 
+            "companion_chunk_task_id": null, 
+            "created_at": "2016-06-14T16:12:14.776036", 
+            "error_message": null, 
+            "is_chunkable": false, 
+            "klass": "TaskBindingNode", 
+            "node_id": "pbsmrtpipe_examples.tasks.dev_interact_with_sset", 
+            "nproc": 1, 
+            "operator_id": null, 
+            "ropts": {}, 
+            "run_time": 2.14, 
+            "state": "successful", 
+            "updated_at": "2016-06-14T16:12:14.775999", 
+            "was_chunked": false, 
+            "was_gathered": false
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "BindingOutFileNode", 
+            "node_id": "PacBio.FileTypes.csv-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv", 
+            "resolved_at": "2016-06-14T16:12:18.525558"
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryPointNode", 
+            "node_id": "eid_xml", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml", 
+            "run_time": 1.0
+        }
+    ]
+}
