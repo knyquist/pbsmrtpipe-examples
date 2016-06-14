@@ -1,0 +1,26 @@
+{
+    "cluster": null, 
+    "env": {}, 
+    "id": "pbsmrtpipe.tasks.dev_txt_to_fasta", 
+    "resource_types": [], 
+    "task": {
+        "cmds": [
+            "python -m pbsmrtpipe.pb_tasks.dev  run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe.tasks.dev_txt_to_fasta-0/resolved-tool-contract.json"
+        ], 
+        "input_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv"
+        ], 
+        "is_distributed": false, 
+        "nproc": 1, 
+        "options": {}, 
+        "output_dir": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe.tasks.dev_txt_to_fasta-0", 
+        "output_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe.tasks.dev_txt_to_fasta-0/file.fasta"
+        ], 
+        "resources": [], 
+        "task_id": "pbsmrtpipe.tasks.dev_txt_to_fasta", 
+        "task_type_id": "pbsmrtpipe.tasks.dev_txt_to_fasta", 
+        "uuid": "15753792-fefa-42b7-983a-865c4cb76552"
+    }, 
+    "version": "0.40.1"
+}

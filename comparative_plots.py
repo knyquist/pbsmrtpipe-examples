@@ -44,7 +44,7 @@ def _example_main( input_file, output_file, **kwargs ):
     # run within testkit
     log.info( "Attempting to write simple information from the SubreadSet to CSV output" )
     with open( output_file, 'wb' ) as csvfile:
-        writer = csv.writer( csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL )
+        writer = csv.writer( csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL )
         writer.writerow( ['foo', 'bar'] )
         writer.writerow( ['baz', 'waz'] )
         writer.writerow( ['nreads', str(nreads) ] )
@@ -54,7 +54,7 @@ def _example_main( input_file, output_file, **kwargs ):
 
 @registry( "dev_comparative_plots", "0.2.2", ( FileTypes.DS_SUBREADS, ), ( FileTypes.CSV, ), nproc = 1, options = dict( alpha = 1234) )
 def run_rtc(rtc):
-    """Example Task for generating comparitive plots. Takes a SubreadSet XML file as input and writes a txt file with mock data"""
+    """Example Task for generating comparitive plots. Takes a SubreadSet XML file as input and writes a csv file with mock data"""
     # The above docstring will be used as the Task/ToolContract Description
 
     log.info("Got RTC task options {t}".format(t=rtc.task.options))

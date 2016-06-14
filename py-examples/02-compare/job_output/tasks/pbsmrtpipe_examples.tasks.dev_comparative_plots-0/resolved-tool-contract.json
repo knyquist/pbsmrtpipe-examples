@@ -1,0 +1,25 @@
+{
+    "driver": {
+        "env": {},
+        "exe": "comparative_plots.py  run-rtc  ",
+        "serialization": "json"
+    },
+    "resolved_tool_contract": {
+        "_comment": "Created by pbcommand v0.3.28",
+        "input_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/input1.subreadset.xml"
+        ],
+        "is_distributed": false,
+        "log_level": "INFO",
+        "nproc": 1,
+        "options": {
+            "pbsmrtpipe_examples.task_options.alpha": 1234
+        },
+        "output_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv"
+        ],
+        "resources": [],
+        "task_type": "pbsmrtpipe.task_types.standard",
+        "tool_contract_id": "pbsmrtpipe_examples.tasks.dev_comparative_plots"
+    }
+}

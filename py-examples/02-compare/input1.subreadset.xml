@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubreadSet CreatedAt="2016-05-19T02:23:53Z" MetaType="PacBio.DataSet.SubreadSet" Name="4P13_D_5054_Movie_1" Tags="subreadset" TimeStampedName="SubreadSetCollection_160519_022353540" UniqueId="255e2771-6b1e-ab8b-6c83-e3a149617d23" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:ns4="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource Description="Points to the subreads bam file." MetaType="PacBio.SubreadFile.SubreadBamFile" Name="subreads bam" ResourceId="/pbi/collections/318/3180043/r54002i_20160518_210130/1_A01/Sequel_3.1.0/m54002i_160518_210139.subreads.bam" TimeStampedName="pacbio_subreadfile_subreadbamfile-160519_022353562" UniqueId="03901a58-94de-4f46-a023-e6bd9a86a6aa" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="/pbi/collections/318/3180043/r54002i_20160518_210130/1_A01/Sequel_3.1.0/m54002i_160518_210139.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160519_022353562" UniqueId="22fa274b-b1b8-408b-9142-4e44b59a541b" Version="3.0.1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource Description="Points to the scraps bam file." MetaType="PacBio.SubreadFile.ScrapsBamFile" Name="scraps bam" ResourceId="/pbi/collections/318/3180043/r54002i_20160518_210130/1_A01/Sequel_3.1.0/m54002i_160518_210139.scraps.bam" TimeStampedName="pacbio_subreadfile_scrapsbamfile-160519_022353562" UniqueId="17e61572-b219-42eb-9b6f-3db74bdba8ef" Version="3.0.1">
+					<pbbase:FileIndices>
+						<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="/pbi/collections/318/3180043/r54002i_20160518_210130/1_A01/Sequel_3.1.0/m54002i_160518_210139.scraps.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160519_022353562" UniqueId="78e3eeef-14b3-45bb-9c9a-54e3445ecf05" Version="3.0.1"/>
+					</pbbase:FileIndices>
+				</pbbase:ExternalResource>
+				<pbbase:ExternalResource Description="Points to the summary sts.xml file." MetaType="PacBio.SubreadFile.ChipStatsFile" Name="Chipstats XML" ResourceId="/pbi/collections/318/3180043/r54002i_20160518_210130/1_A01/Sequel_3.1.0/m54002i_160518_210139.sts.xml" TimeStampedName="pacbio_subreadfile_chipstatsfile-160519_022353562" UniqueId="4fa4da5a-8d11-4163-8686-d475d6b7fdf2" Version="3.0.1"/>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>16270182</TotalLength>
+		<NumRecords>10362</NumRecords>
+		<pbmeta:Collections>
+			<pbmeta:CollectionMetadata Context="m54002i_160518_210139" CreatedAt="0001-01-01T00:00:00" InstrumentId="60001" InstrumentName="Inst60001" MetaType="CollectionMetadata" ModifiedAt="0001-01-01T00:00:00" Status="Ready" TimeStampedName="60001-CollectionMetadata-2015-07-09T09:30:47.833Z" UniqueId="F0E492E4-9834-4EAC-8176-A1CE46C4D9C4">
+				<pbbase:Extensions/>
+				<pbmeta:InstCtrlVer>3.0.5.175014</pbmeta:InstCtrlVer>
+				<pbmeta:SigProcVer>3.0.17</pbmeta:SigProcVer>
+				<pbmeta:RunDetails>
+					<pbmeta:TimeStampedName>r54002i_20160518_210130</pbmeta:TimeStampedName>
+					<pbmeta:Name>4P13_D_5054_Movie_1</pbmeta:Name>
+					<pbmeta:WhenCreated>2015-07-09T09:30:47.833Z</pbmeta:WhenCreated>
+					<pbmeta:WhenStarted>2016-05-18T21:01:38.083161Z</pbmeta:WhenStarted>
+				</pbmeta:RunDetails>
+				<pbmeta:WellSample CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="&quot;4P13_D_5054_Movie_1;">
+					<pbbase:Extensions/>
+					<pbmeta:WellName>SamplePlate-1-A-1</pbmeta:WellName>
+					<pbmeta:Concentration>0.0</pbmeta:Concentration>
+					<pbmeta:InsertSize>0</pbmeta:InsertSize>
+					<pbmeta:SampleReuseEnabled>false</pbmeta:SampleReuseEnabled>
+					<pbmeta:StageHotstartEnabled>false</pbmeta:StageHotstartEnabled>
+					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
+					<pbmeta:UseCount>0</pbmeta:UseCount>
+				</pbmeta:WellSample>
+				<pbmeta:Automation CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="manualcellprep.py">
+					<pbbase:Extensions/>
+					<pbbase:AutomationParameters>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="Exposure" SimpleValue="0.0125" ValueDataType="Double">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="CouplerLaserPower" SimpleValue="9" ValueDataType="Double">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="MovieLength" SimpleValue="30" ValueDataType="Double">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="sequencingPixelROI" SimpleValue="[[0,0,1080,1920]]" ValueDataType="JSON">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="traceFilePixelROI" SimpleValue="[[103,224,64,64],[103,704,64,64],[103,1184,64,64],[103,1664,64,64],[373,224,64,64],[373,704,64,64],[373,1184,64,64],[373,1664,64,64],[643,224,64,64],[643,704,64,64],[643,1184,64,64],[643,1664,64,64],[913,224,64,64],[913,704,64,64],[913,1184,64,64],[913,1664,64,64]]" ValueDataType="JSON">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="CellAtStage" SimpleValue="True" ValueDataType="String">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="SkipAlignment" SimpleValue="False" ValueDataType="String">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="UseStageHotStart" SimpleValue="False" ValueDataType="String">
+							<pbbase:Extensions/>
+						</pbbase:AutomationParameter>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="CollectionNumber" SimpleValue="0" ValueDataType="Int32"/>
+						<pbbase:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="CellReuseIndex" SimpleValue="0" ValueDataType="Int32"/>
+					</pbbase:AutomationParameters>
+				</pbmeta:Automation>
+				<pbmeta:CollectionNumber>0</pbmeta:CollectionNumber>
+				<pbmeta:CellIndex>0</pbmeta:CellIndex>
+				<pbmeta:SetNumber>0</pbmeta:SetNumber>
+				<pbmeta:CellPac Barcode="00000133635992020994221130" CreatedAt="0001-01-01T00:00:00" ExpirationDate="2019-12-31" LotNumber="007777" ModifiedAt="0001-01-01T00:00:00" PartNumber="100-513-100"/>
+				<pbmeta:TemplatePrepKit Barcode="333333100259100092215" CreatedAt="0001-01-01T00:00:00" ExpirationDate="2020-09-22" LotNumber="333333" MaxInsertSize="20000" MinInsertSize="500" ModifiedAt="0001-01-01T00:00:00" Name="SMRTbell™ Template Prep Kit" PartNumber="100-259-100">
+					<pbbase:Extensions/>
+					<pbbase:LeftAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:LeftAdaptorSequence>
+					<pbbase:RightAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:RightAdaptorSequence>
+				</pbmeta:TemplatePrepKit>
+				<pbmeta:BindingKit Barcode="444444100619300092215" CreatedAt="0001-01-01T00:00:00" ExpirationDate="2020-09-22" LotNumber="444444" ModifiedAt="0001-01-01T00:00:00" Name="Sequel Binding Kit v1" PartNumber="100-619-300">
+					<pbbase:Extensions/>
+					<pbbase:IsControlUsed>false</pbbase:IsControlUsed>
+				</pbmeta:BindingKit>
+				<pbmeta:SequencingKitPlate Barcode="002222100620000123119" CreatedAt="0001-01-01T00:00:00" ExpirationDate="2019-12-31" LotNumber="002222" ModifiedAt="0001-01-01T00:00:00" PartNumber="100-620-000">
+					<ns4:ReagentTubes CreatedAt="0001-01-01T00:00:00" ExpirationDate="2019-12-31" LotNumber="002222" ModifiedAt="0001-01-01T00:00:00" PartNumber="100-619-700"/>
+					<ns4:ReagentTubes CreatedAt="0001-01-01T00:00:00" ExpirationDate="2019-12-31" LotNumber="002222" ModifiedAt="0001-01-01T00:00:00" PartNumber="100-619-600"/>
+				</pbmeta:SequencingKitPlate>
+				<pbmeta:Primary>
+					<pbmeta:AutomationName>SequelAlpha</pbmeta:AutomationName>
+					<pbmeta:ConfigFileName>SqlPoC_SubCrf_2C2A-t2.xml</pbmeta:ConfigFileName>
+					<pbmeta:SequencingCondition/>
+					<pbmeta:OutputOptions>
+						<pbmeta:ResultsFolder>Analysis_Results</pbmeta:ResultsFolder>
+						<pbmeta:CollectionPathUri>/pbi/collections/318/3180043/r54002i_20160518_210130/1_A01/</pbmeta:CollectionPathUri>
+						<pbmeta:CopyFiles>
+							<pbmeta:CollectionFileCopy>Trace</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Fasta</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Bam</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Baz</pbmeta:CollectionFileCopy>
+						</pbmeta:CopyFiles>
+						<pbmeta:Readout>Bases</pbmeta:Readout>
+						<pbmeta:MetricsVerbosity>High</pbmeta:MetricsVerbosity>
+					</pbmeta:OutputOptions>
+				</pbmeta:Primary>
+				<pbmeta:Secondary>
+					<pbmeta:AutomationName>NoRS_Standard.1</pbmeta:AutomationName>
+					<pbmeta:AutomationParameters>
+						<pbmeta:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="Reference" SimpleValue="ecoliK12_pbi_March2013" ValueDataType="String">
+							<pbbase:Extensions/>
+						</pbmeta:AutomationParameter>
+					</pbmeta:AutomationParameters>
+					<pbmeta:CellCountInJob>0</pbmeta:CellCountInJob>
+				</pbmeta:Secondary>
+				<pbmeta:UserDefinedFields>
+					<pbbase:DataEntities CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" ValueDataType="String">
+						<pbbase:Extensions/>
+					</pbbase:DataEntities>
+					<pbbase:DataEntities CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" ValueDataType="String">
+						<pbbase:Extensions/>
+					</pbbase:DataEntities>
+					<pbbase:DataEntities CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" ValueDataType="String">
+						<pbbase:Extensions/>
+					</pbbase:DataEntities>
+					<pbbase:DataEntities CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" ValueDataType="String">
+						<pbbase:Extensions/>
+					</pbbase:DataEntities>
+				</pbmeta:UserDefinedFields>
+			</pbmeta:CollectionMetadata>
+		</pbmeta:Collections>
+	</DataSetMetadata>
+</SubreadSet>

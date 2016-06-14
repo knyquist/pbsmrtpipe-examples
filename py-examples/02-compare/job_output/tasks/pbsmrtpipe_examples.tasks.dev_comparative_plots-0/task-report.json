@@ -1,0 +1,42 @@
+{
+    "_changelist": "UNKNOWN",
+    "_version": "0.3.28",
+    "attributes": [
+        {
+            "id": "workflow_task.host",
+            "name": null,
+            "value": "login14-biofx03"
+        },
+        {
+            "id": "workflow_task.task_id",
+            "name": null,
+            "value": "pbsmrtpipe_examples.tasks.dev_comparative_plots"
+        },
+        {
+            "id": "workflow_task.run_time",
+            "name": null,
+            "value": 1.5319089889526367
+        },
+        {
+            "id": "workflow_task.exit_code",
+            "name": null,
+            "value": 0
+        },
+        {
+            "id": "workflow_task.error_msg",
+            "name": null,
+            "value": ""
+        },
+        {
+            "id": "workflow_task.warning_msg",
+            "name": null,
+            "value": ""
+        }
+    ],
+    "dataset_uuids": [],
+    "id": "workflow_task",
+    "plotGroups": [],
+    "tables": [],
+    "title": "Report workflow_task",
+    "uuid": "fa673586-5afd-4146-86b8-5ff3f6ae489a"
+}
