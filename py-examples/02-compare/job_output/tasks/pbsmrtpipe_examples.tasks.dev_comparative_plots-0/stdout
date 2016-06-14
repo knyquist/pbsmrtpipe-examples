@@ -1,18 +1,18 @@
 <RunnableTask pbsmrtpipe_examples.tasks.dev_comparative_plots task type True ncommands 1 nresources 0 >
-Created at 2016-06-14 14:08:21.645092 on login14-biofx03
+Created at 2016-06-14 14:20:45.369519 on login14-biofx03
 Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/input1.subreadset.xml
-Starting to run 1 cmds.[INFO] 2016-06-14 21:08:22,442Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
-[INFO] 2016-06-14 21:08:22,443Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples comparative_plots.py  tool-contracts:1 >
-[INFO] 2016-06-14 21:08:22,443Z [pbcommand.cli.quick _w 233] Setting log-level to 20
-[INFO] 2016-06-14 21:08:22,443Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/resolved-tool-contract.json
-[INFO] 2016-06-14 21:08:22,443Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_comparative_plots Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_comparative_plots >
-[INFO] 2016-06-14 21:08:22,444Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7f5f9b265de8>
-[INFO] 2016-06-14 21:08:22,444Z [__main__ run_rtc 60] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
-[INFO] 2016-06-14 21:08:22,444Z [__main__ run_rtc 61] Got nproc 1
-[INFO] 2016-06-14 21:08:22,444Z [__main__ _example_main 36] Running example main with /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/input1.subreadset.xml /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv kw:{'alpha': 1234, 'nproc': 1}
-[INFO] 2016-06-14 21:08:22,444Z [__main__ _example_main 39] Attempting to open SubreadSet input with pbcore.io.BamIO
-[INFO] 2016-06-14 21:08:22,550Z [__main__ _example_main 45] Attempting to write simple information from the SubreadSet to CSV output
-[INFO] 2016-06-14 21:08:22,554Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_comparative_plots > exitcode 0 in 0.11 sec.
+Starting to run 1 cmds.[INFO] 2016-06-14 21:20:46,225Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
+[INFO] 2016-06-14 21:20:46,225Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples comparative_plots.py  tool-contracts:1 >
+[INFO] 2016-06-14 21:20:46,225Z [pbcommand.cli.quick _w 233] Setting log-level to 20
+[INFO] 2016-06-14 21:20:46,225Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/resolved-tool-contract.json
+[INFO] 2016-06-14 21:20:46,226Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_comparative_plots Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_comparative_plots >
+[INFO] 2016-06-14 21:20:46,226Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7f77ae780e60>
+[INFO] 2016-06-14 21:20:46,226Z [__main__ run_rtc 60] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
+[INFO] 2016-06-14 21:20:46,226Z [__main__ run_rtc 61] Got nproc 1
+[INFO] 2016-06-14 21:20:46,226Z [__main__ _example_main 36] Running example main with /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/input1.subreadset.xml /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv kw:{'alpha': 1234, 'nproc': 1}
+[INFO] 2016-06-14 21:20:46,226Z [__main__ _example_main 39] Attempting to open SubreadSet input with pbcore.io.BamIO
+[INFO] 2016-06-14 21:20:46,309Z [__main__ _example_main 45] Attempting to write simple information from the SubreadSet to CSV output
+[INFO] 2016-06-14 21:20:46,314Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_comparative_plots > exitcode 0 in 0.09 sec.
 completed running cmd 1 of 1. exit code 0 in 1.52 sec on host login14-biofx03
 Successfully validated 0 output file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv' on login14-biofx03 
 Writing task id pbsmrtpipe_examples.tasks.dev_comparative_plots task report to /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/task-report.json

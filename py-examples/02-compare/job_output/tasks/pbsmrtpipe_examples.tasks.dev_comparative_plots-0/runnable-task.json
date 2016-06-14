@@ -22,7 +22,7 @@
         "resources": [], 
         "task_id": "pbsmrtpipe_examples.tasks.dev_comparative_plots", 
         "task_type_id": "pbsmrtpipe_examples.tasks.dev_comparative_plots", 
-        "uuid": "38bc7347-19b8-475d-ba88-b1e9c97911ba"
+        "uuid": "1572cd3c-0187-48d4-b7f5-613f96f2999a"
     }, 
     "version": "0.40.1"
 }

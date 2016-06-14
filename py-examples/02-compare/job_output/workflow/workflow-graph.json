@@ -1,8 +1,8 @@
 {
-    "_comment": "Updated at 2016-06-14 14:08:26.430408", 
+    "_comment": "Updated at 2016-06-14 14:20:47.768617", 
     "edges": null, 
     "nedges": 0, 
-    "nnodes": 8, 
+    "nnodes": 5, 
     "nodes": [
         {
             "is_resolved": true, 
@@ -16,7 +16,7 @@
             "chunk_keys": [], 
             "cmds": [], 
             "companion_chunk_task_id": null, 
-            "created_at": "2016-06-14T14:08:20.119803", 
+            "created_at": "2016-06-14T14:20:43.801850", 
             "error_message": null, 
             "is_chunkable": false, 
             "klass": "TaskBindingNode", 
@@ -24,42 +24,9 @@
             "nproc": 1, 
             "operator_id": null, 
             "ropts": {}, 
-            "run_time": 1.54, 
+            "run_time": 1.55, 
             "state": "successful", 
-            "updated_at": "2016-06-14T14:08:20.119789", 
-            "was_chunked": false, 
-            "was_gathered": false
-        }, 
-        {
-            "is_resolved": true, 
-            "klass": "BindingInFileNode", 
-            "node_id": "PacBio.FileTypes.txt-0.0", 
-            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv", 
-            "resolved_at": "2016-06-14T14:08:23.311033"
-        }, 
-        {
-            "is_resolved": true, 
-            "klass": "BindingOutFileNode", 
-            "node_id": "PacBio.FileTypes.Fasta-0.0", 
-            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe.tasks.dev_txt_to_fasta-0/file.fasta", 
-            "resolved_at": "2016-06-14T14:08:25.594436"
-        }, 
-        {
-            "chunk_group_id": null, 
-            "chunk_keys": [], 
-            "cmds": [], 
-            "companion_chunk_task_id": null, 
-            "created_at": "2016-06-14T14:08:20.119922", 
-            "error_message": null, 
-            "is_chunkable": false, 
-            "klass": "TaskBindingNode", 
-            "node_id": "pbsmrtpipe.tasks.dev_txt_to_fasta", 
-            "nproc": 1, 
-            "operator_id": null, 
-            "ropts": {}, 
-            "run_time": 2.14, 
-            "state": "successful", 
-            "updated_at": "2016-06-14T14:08:20.119911", 
+            "updated_at": "2016-06-14T14:20:43.801820", 
             "was_chunked": false, 
             "was_gathered": false
         }, 
@@ -82,7 +49,7 @@
             "klass": "BindingOutFileNode", 
             "node_id": "PacBio.FileTypes.csv-0.0", 
             "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv", 
-            "resolved_at": "2016-06-14T14:08:23.310486"
+            "resolved_at": "2016-06-14T14:20:46.975939"
         }
     ]
 }

@@ -10,7 +10,7 @@
         {
             "id": "pbsmrtpipe.total_run_time_sec",
             "name": "Walltime (sec)",
-            "value": 5
+            "value": 3
         },
         {
             "id": "pbsmrtpipe.error_message",
@@ -20,7 +20,7 @@
         {
             "id": "pbsmrtpipe.job_id",
             "name": "Job Id",
-            "value": 943121
+            "value": 544820
         },
         {
             "id": "pbsmrtpipe.job_state",
@@ -49,15 +49,13 @@
                     "id": "pbsmrtpipe.tasks.task_id",
                     "values": [
                         "EntryPointNode eid_xml PacBio.DataSet.SubreadSet",
-                        "TaskBindingNode pbsmrtpipe_examples.tasks.dev_comparative_plots-0",
-                        "TaskBindingNode pbsmrtpipe.tasks.dev_txt_to_fasta-0"
+                        "TaskBindingNode pbsmrtpipe_examples.tasks.dev_comparative_plots-0"
                     ]
                 },
                 {
                     "header": "Was Successful",
                     "id": "pbsmrtpipe.tasks.was_successful",
                     "values": [
-                        true,
                         true,
                         true
                     ]
@@ -67,7 +65,6 @@
                     "id": "pbsmrtpipe.tasks.state",
                     "values": [
                         "successful",
-                        "successful",
                         "successful"
                     ]
                 },
@@ -76,15 +73,13 @@
                     "id": "pbsmrtpipe.tasks.run_time_sec",
                     "values": [
                         1.0,
-                        1.54,
-                        2.14
+                        1.55
                     ]
                 },
                 {
                     "header": "# of procs",
                     "id": "pbsmrtpipe.tasks.nproc",
                     "values": [
-                        1,
                         1,
                         1
                     ]
@@ -128,17 +123,13 @@
                     "values": [
                         "EntryOutBindingFileNode PacBio.DataSet.SubreadSet eid_xml",
                         "BindingInFileNode pbsmrtpipe_examples.tasks.dev_comparative_plots-0 PacBio.DataSet.SubreadSet-0.0",
-                        "BindingOutFileNode pbsmrtpipe_examples.tasks.dev_comparative_plots-0 PacBio.FileTypes.csv-0.0",
-                        "BindingInFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.txt-0.0",
-                        "BindingOutFileNode pbsmrtpipe.tasks.dev_txt_to_fasta-0 PacBio.FileTypes.Fasta-0.0"
+                        "BindingOutFileNode pbsmrtpipe_examples.tasks.dev_comparative_plots-0 PacBio.FileTypes.csv-0.0"
                     ]
                 },
                 {
                     "header": "Is Resolved",
                     "id": "pbsmrtpipe.file_node.is_resolved",
                     "values": [
-                        true,
-                        true,
                         true,
                         true,
                         true
@@ -150,9 +141,7 @@
                     "values": [
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/input1.subreadset.xml",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/input1.subreadset.xml",
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv",
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv",
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe.tasks.dev_txt_to_fasta-0/file.fasta"
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-compare/job_output/tasks/pbsmrtpipe_examples.tasks.dev_comparative_plots-0/file.csv"
                     ]
                 }
             ],
@@ -161,5 +150,5 @@
         }
     ],
     "title": "Report pbsmrtpipe",
-    "uuid": "e8aa9868-6f39-444c-ac30-6355d266aeeb"
+    "uuid": "e69e993d-183c-4feb-81ef-2c733d94d38b"
 }
