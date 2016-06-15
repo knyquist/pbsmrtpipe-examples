@@ -1,3 +1,6 @@
+# Potentially large pickle files (debugging mostly)
+*.pickle
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
