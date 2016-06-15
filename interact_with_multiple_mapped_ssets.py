@@ -13,11 +13,16 @@ from pbcommand.models import FileTypes
 from pbcommand.cli import registry_builder, registry_runner
 from pbcore.io import openDataSet
 
+import plotly
+from plotly.graph_objs import *
+from plotly.offline import download_plotlyjs, plot
+
+
 log = logging.getLogger(__name__)
 
 NAMESPACE = "pbsmrtpipe_examples"
 
-# the 'Driver' exe needs to be your your path. The first arg will be the path
+# the 'Driver' exe needs to be in your path. The first arg will be the path
 # to the resolved tool contract.
 #
 # Note, When the tool contract is emitted, the 'run-rtc'
@@ -51,6 +56,7 @@ def _getKPIs(mapped_sset, subsampled_mapped_sset):
     """
     Retrieve the KPIs for a single mapped sset in a dictionary structure.
     """
+    log.info("Retrieving metrics from aligned subread set")
     data = {}
     data['holenumber'] = []
     data['readlength'] = []
@@ -100,6 +106,35 @@ def _example_main(input_file, output_file, **kwargs):
         dsets_kpis[f] = _getKPIs(dset, subsampled_dset)
 
     pickle.dump(dsets_kpis, open(output_file, 'wb'))
+
+    # save a simple plot
+    traces = []; titles = []; max_rl = 0
+    for key in dsets_kpis.keys():
+        rl = dsets_kpis[key]['readlength']
+        acc = dsets_kpis[key]['accuracy']
+        if max(rl) > max_rl:
+            max_rl = max(rl)
+        trace = Scatter(
+                x = rl,
+                y = acc,
+                mode='markers'
+        )
+        traces.append( trace )
+        titles.append( str(key) )
+    rows = len( traces )
+    fig = plotly.tools.make_subplots(rows=rows, cols=1,
+                                     subplot_titles=tuple(titles))
+    for row,trace in enumerate(traces):
+        fig.append_trace(trace, row+1, 1) # convert from zero-based to one-based indexing
+        fig['layout']['xaxis'+str(row+1)]['tickfont'].update(size=16)
+        fig['layout']['yaxis'+str(row+1)]['tickfont'].update(size=16)
+        fig['layout']['xaxis'+str(row+1)].update(range=[0,max_rl])
+
+    fig['layout']['yaxis'+str(rows/2+1)].update(title='accuracy')
+    fig['layout']['xaxis'+str(rows)].update(title='readlength (bases)')
+    fig['layout']['font']['size'] = 20
+
+    plot(fig, filename='test-plot.html')
 
     return 0
 

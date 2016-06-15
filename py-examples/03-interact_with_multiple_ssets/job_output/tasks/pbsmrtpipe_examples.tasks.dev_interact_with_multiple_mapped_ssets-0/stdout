@@ -1,17 +1,25 @@
 <RunnableTask pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets task type True ncommands 1 nresources 0 >
-Created at 2016-06-14 20:10:49.280547 on login14-biofx03
+Created at 2016-06-15 16:41:31.965300 on login14-biofx03
 Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv
-Starting to run 1 cmds.[INFO] 2016-06-15 03:10:50,565Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
-[INFO] 2016-06-15 03:10:50,565Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples interact_with_multiple_mapped_ssets.py tool-contracts:1 >
-[INFO] 2016-06-15 03:10:50,565Z [pbcommand.cli.quick _w 233] Setting log-level to 20
-[INFO] 2016-06-15 03:10:50,566Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/resolved-tool-contract.json
-[INFO] 2016-06-15 03:10:50,567Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets >
-[INFO] 2016-06-15 03:10:50,567Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7ff3ac2be758>
-[INFO] 2016-06-15 03:10:50,567Z [__main__ run_rtc 115] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
-[INFO] 2016-06-15 03:10:50,567Z [__main__ run_rtc 116] Got nproc 1
-[INFO] 2016-06-15 03:10:50,567Z [__main__ _example_main 91] Running example main with /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/file.pickle kw:{'alpha': 1234, 'nproc': 1}
-[INFO] 2016-06-15 03:10:50,567Z [__main__ _get_dset_paths 34] Attempting to open input CSV
-[INFO] 2016-06-15 03:11:41,061Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets > exitcode 0 in 50.50 sec.
-completed running cmd 1 of 1. exit code 0 in 56.18 sec on host login14-biofx03
+Starting to run 1 cmds.[INFO] 2016-06-15 23:41:35,834Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
+[INFO] 2016-06-15 23:41:35,835Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples interact_with_multiple_mapped_ssets.py tool-contracts:1 >
+[INFO] 2016-06-15 23:41:35,835Z [pbcommand.cli.quick _w 233] Setting log-level to 20
+[INFO] 2016-06-15 23:41:35,835Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/resolved-tool-contract.json
+[INFO] 2016-06-15 23:41:35,835Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets >
+[INFO] 2016-06-15 23:41:35,836Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7f2fd7e6c2a8>
+[INFO] 2016-06-15 23:41:35,836Z [__main__ run_rtc 150] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
+[INFO] 2016-06-15 23:41:35,836Z [__main__ run_rtc 151] Got nproc 1
+[INFO] 2016-06-15 23:41:35,836Z [__main__ _example_main 97] Running example main with /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/file.pickle kw:{'alpha': 1234, 'nproc': 1}
+[INFO] 2016-06-15 23:41:35,836Z [__main__ _get_dset_paths 39] Attempting to open input CSV
+[INFO] 2016-06-15 23:41:45,111Z [__main__ _getKPIs 59] Retrieving metrics from aligned subread set
+[INFO] 2016-06-15 23:42:11,858Z [__main__ _getKPIs 59] Retrieving metrics from aligned subread set
+[INFO] 2016-06-15 23:42:38,606Z [__main__ _getKPIs 59] Retrieving metrics from aligned subread set
+This is the format of your plot grid:
+[ (1,1) x1,y1 ]
+[ (2,1) x2,y2 ]
+[ (3,1) x3,y3 ]
+
+[INFO] 2016-06-15 23:42:44,314Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets > exitcode 0 in 68.48 sec.
+completed running cmd 1 of 1. exit code 0 in 78.10 sec on host login14-biofx03
 Successfully validated 0 output file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/file.pickle' on login14-biofx03 
 Writing task id pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets task report to /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/task-report.json

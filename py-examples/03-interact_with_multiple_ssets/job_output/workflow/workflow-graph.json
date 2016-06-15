@@ -1,5 +1,5 @@
 {
-    "_comment": "Updated at 2016-06-14 20:11:47.944844", 
+    "_comment": "Updated at 2016-06-15 16:42:54.474813", 
     "edges": null, 
     "nedges": 0, 
     "nnodes": 5, 
@@ -9,7 +9,7 @@
             "klass": "BindingOutFileNode", 
             "node_id": "PacBio.FileTypes.pickle-0.0", 
             "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/file.pickle", 
-            "resolved_at": "2016-06-14T20:11:46.789036"
+            "resolved_at": "2016-06-15T16:42:53.616031"
         }, 
         {
             "is_resolved": true, 
@@ -30,7 +30,7 @@
             "chunk_keys": [], 
             "cmds": [], 
             "companion_chunk_task_id": null, 
-            "created_at": "2016-06-14T20:10:47.792163", 
+            "created_at": "2016-06-15T16:41:30.415931", 
             "error_message": null, 
             "is_chunkable": false, 
             "klass": "TaskBindingNode", 
@@ -38,9 +38,9 @@
             "nproc": 1, 
             "operator_id": null, 
             "ropts": {}, 
-            "run_time": 56.2, 
+            "run_time": 78.14, 
             "state": "successful", 
-            "updated_at": "2016-06-14T20:10:47.792139", 
+            "updated_at": "2016-06-15T16:41:30.415889", 
             "was_chunked": false, 
             "was_gathered": false
         }, 

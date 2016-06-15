@@ -10,7 +10,7 @@
         {
             "id": "pbsmrtpipe.total_run_time_sec",
             "name": "Walltime (sec)",
-            "value": 59
+            "value": 83
         },
         {
             "id": "pbsmrtpipe.error_message",
@@ -20,7 +20,7 @@
         {
             "id": "pbsmrtpipe.job_id",
             "name": "Job Id",
-            "value": 978510
+            "value": 277523
         },
         {
             "id": "pbsmrtpipe.job_state",
@@ -73,7 +73,7 @@
                     "id": "pbsmrtpipe.tasks.run_time_sec",
                     "values": [
                         1.0,
-                        56.2
+                        78.14
                     ]
                 },
                 {
@@ -150,5 +150,5 @@
         }
     ],
     "title": "Report pbsmrtpipe",
-    "uuid": "899c10c4-5d6b-4c3e-935b-9a4efc954cd1"
+    "uuid": "bcec0f60-129d-46dd-b974-d6b18d503470"
 }
