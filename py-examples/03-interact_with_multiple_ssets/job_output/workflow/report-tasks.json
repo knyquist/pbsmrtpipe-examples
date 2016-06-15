@@ -1,0 +1,154 @@
+{
+    "_changelist": "UNKNOWN",
+    "_version": "0.3.28",
+    "attributes": [
+        {
+            "id": "pbsmrtpipe.was_successful",
+            "name": "Was Successful",
+            "value": true
+        },
+        {
+            "id": "pbsmrtpipe.total_run_time_sec",
+            "name": "Walltime (sec)",
+            "value": 59
+        },
+        {
+            "id": "pbsmrtpipe.error_message",
+            "name": "Error Message",
+            "value": ""
+        },
+        {
+            "id": "pbsmrtpipe.job_id",
+            "name": "Job Id",
+            "value": 978510
+        },
+        {
+            "id": "pbsmrtpipe.job_state",
+            "name": "Job State",
+            "value": "successful"
+        },
+        {
+            "id": "pbsmrtpipe.job_output_dir",
+            "name": "Job Output Directory",
+            "value": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output"
+        },
+        {
+            "id": "pbsmrtpipe.pbsmrtpipe_version",
+            "name": "pbsmrtpipe Version",
+            "value": "0.40.1"
+        }
+    ],
+    "dataset_uuids": [],
+    "id": "pbsmrtpipe",
+    "plotGroups": [],
+    "tables": [
+        {
+            "columns": [
+                {
+                    "header": "Task id",
+                    "id": "pbsmrtpipe.tasks.task_id",
+                    "values": [
+                        "EntryPointNode eid_csv PacBio.FileTypes.csv",
+                        "TaskBindingNode pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0"
+                    ]
+                },
+                {
+                    "header": "Was Successful",
+                    "id": "pbsmrtpipe.tasks.was_successful",
+                    "values": [
+                        true,
+                        true
+                    ]
+                },
+                {
+                    "header": "Task State",
+                    "id": "pbsmrtpipe.tasks.state",
+                    "values": [
+                        "successful",
+                        "successful"
+                    ]
+                },
+                {
+                    "header": "Run Time (sec)",
+                    "id": "pbsmrtpipe.tasks.run_time_sec",
+                    "values": [
+                        1.0,
+                        56.2
+                    ]
+                },
+                {
+                    "header": "# of procs",
+                    "id": "pbsmrtpipe.tasks.nproc",
+                    "values": [
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.tasks",
+            "title": null
+        },
+        {
+            "columns": [
+                {
+                    "header": "Id",
+                    "id": "pbsmrtpipe.entry_points.id",
+                    "values": [
+                        "EntryOutBindingFileNode PacBio.FileTypes.csv eid_csv"
+                    ]
+                },
+                {
+                    "header": "Is Resolved",
+                    "id": "pbsmrtpipe.entry_points.is_resolved",
+                    "values": [
+                        true
+                    ]
+                },
+                {
+                    "header": "Path",
+                    "id": "pbsmrtpipe.entry_points.path",
+                    "values": [
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv"
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.entry_points",
+            "title": null
+        },
+        {
+            "columns": [
+                {
+                    "header": "Id",
+                    "id": "pbsmrtpipe.file_node.id",
+                    "values": [
+                        "EntryOutBindingFileNode PacBio.FileTypes.csv eid_csv",
+                        "BindingInFileNode pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0 PacBio.FileTypes.csv-0.0",
+                        "BindingOutFileNode pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0 PacBio.FileTypes.pickle-0.0"
+                    ]
+                },
+                {
+                    "header": "Is Resolved",
+                    "id": "pbsmrtpipe.file_node.is_resolved",
+                    "values": [
+                        true,
+                        true,
+                        true
+                    ]
+                },
+                {
+                    "header": "Path",
+                    "id": "pbsmrtpipe.file_node.path",
+                    "values": [
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/file.pickle"
+                    ]
+                }
+            ],
+            "id": "pbsmrtpipe.file_node",
+            "title": null
+        }
+    ],
+    "title": "Report pbsmrtpipe",
+    "uuid": "899c10c4-5d6b-4c3e-935b-9a4efc954cd1"
+}

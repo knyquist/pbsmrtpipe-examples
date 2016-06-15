@@ -1,0 +1,55 @@
+{
+    "_comment": "Updated at 2016-06-14 20:11:47.944844", 
+    "edges": null, 
+    "nedges": 0, 
+    "nnodes": 5, 
+    "nodes": [
+        {
+            "is_resolved": true, 
+            "klass": "BindingOutFileNode", 
+            "node_id": "PacBio.FileTypes.pickle-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/file.pickle", 
+            "resolved_at": "2016-06-14T20:11:46.789036"
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryPointNode", 
+            "node_id": "eid_csv", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv", 
+            "run_time": 1.0
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "BindingInFileNode", 
+            "node_id": "PacBio.FileTypes.csv-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv", 
+            "resolved_at": null
+        }, 
+        {
+            "chunk_group_id": null, 
+            "chunk_keys": [], 
+            "cmds": [], 
+            "companion_chunk_task_id": null, 
+            "created_at": "2016-06-14T20:10:47.792163", 
+            "error_message": null, 
+            "is_chunkable": false, 
+            "klass": "TaskBindingNode", 
+            "node_id": "pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets", 
+            "nproc": 1, 
+            "operator_id": null, 
+            "ropts": {}, 
+            "run_time": 56.2, 
+            "state": "successful", 
+            "updated_at": "2016-06-14T20:10:47.792139", 
+            "was_chunked": false, 
+            "was_gathered": false
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryOutBindingFileNode", 
+            "node_id": "eid_csv.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv", 
+            "resolved_at": null
+        }
+    ]
+}
