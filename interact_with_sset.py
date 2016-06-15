@@ -20,7 +20,7 @@ NAMESPACE = "pbsmrtpipe_examples"
 #
 # When this commandline tool is invoked, it will be of the form:
 # comparative_plots.py run-rtc /path/to/resolved-tool-contract.py
-registry = registry_builder(NAMESPACE, "interact_with_sset.py ")
+registry = registry_builder( NAMESPACE, "interact_with_sset.py" )
 
 
 def _example_main( input_file, output_file, **kwargs ):

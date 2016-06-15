@@ -1,8 +1,8 @@
 log_filter kw is no longer supported
 Starting pbsmrtpipe v0.40.1
-Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_xml', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7ff384040c08>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml'], service_uri=None)
+Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_xml', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7fcd7f1a8c08>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml'], service_uri=None)
 Starting tool version 0.40.1
-Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_xml', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7ff384040c08>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml'], service_uri=None)
+Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_xml', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7fcd7f1a8c08>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/preset.xml'], service_uri=None)
 Loading static meta tasks from /home/knyquist/anaconda2/envs/home/lib/python2.7/site-packages/pbsmrtpipe-0.40.1-py2.7.egg/pbsmrtpipe/registered_tool_contracts_sa3
 <ToolContractMetaTask id:falcon_ns.tasks.task_falcon0_run_daligner_jobs v0.0.0 inputs:2 outputs:1 resources:0 >
 <ToolContractMetaTask id:pbreports.tasks.isoseq_cluster v0.1.0.132615 inputs:2 outputs:1 resources:0 >
@@ -297,7 +297,7 @@ Processing pipeline pbsmrtpipe.pipelines.internal_cond_dev_r_reports
 registering pipeline pbsmrtpipe.pipelines.internal_cond_dev_r_reports
 Processing pipeline pbsmrtpipe.pipelines.internal_cond_acc_density
 registering pipeline pbsmrtpipe.pipelines.internal_cond_acc_density
-Registry Loaded. Number of ToolContracts:145 FileTypes:57 ChunkOperators:17 Pipelines:52
+Registry Loaded. Number of ToolContracts:146 FileTypes:57 ChunkOperators:17 Pipelines:52
 {'eid_xml': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/input1.subreadset.xml'}
 validating entry points.
 successfully validated 1 entry points
@@ -366,7 +366,7 @@ Task Options:
     'pbsmrtpipe.task_options.option_id2': None}
 completed setting up job directory resources and logs in /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output
 successfully created job resources.
-starting to execute Distributed workflow with assigned job_id 678139
+starting to execute Distributed workflow with assigned job_id 838044
 system Linux login14-biofx03 nproc:16
 exe'ing workflow Cluster renderer None
 Service URI: None <type 'NoneType'> (fqdn = login14-biofx03.nanofluidics.com)
@@ -379,10 +379,10 @@ validating binding graph
 successfully validated binding graph.
 Starting worker pbsmrtpipe_examples.tasks.dev_interact_with_sset-0 (1 workers running, 1 total proc in use)
 calling cmd 'interact_with_sset.py  run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/resolved-tool-contract.json' on login14-biofx03
- pid=10069
-Task was successful TaskResult(task_id='pbsmrtpipe_examples.tasks.dev_interact_with_sset-0', state='successful', error_message='', run_time_sec=2.14)
+ pid=11162
+Task was successful TaskResult(task_id='pbsmrtpipe_examples.tasks.dev_interact_with_sset-0', state='successful', error_message='', run_time_sec=1.54)
 Validating task pbsmrtpipe_examples.tasks.dev_interact_with_sset output files ['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/02-interact_with_sset/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_sset-0/file.csv']
 Successfully validated outputs of <TaskBindingNode pbsmrtpipe_examples.tasks.dev_interact_with_sset-0>
 Workflow status 2/2 completed/total tasks
 Shutting down.
-Completed execution pbsmrtpipe v0.40.1. Workflow was Successful in 4.56 sec (0.08 min)
+Completed execution pbsmrtpipe v0.40.1. Workflow was Successful in 3.96 sec (0.07 min)

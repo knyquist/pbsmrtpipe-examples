@@ -1,0 +1,4 @@
+<RunnableTask pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets task type True ncommands 1 nresources 0 >
+Created at 2016-06-14 17:16:18.517344 on login14-biofx03
+Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/input.csv
+Starting to run 1 cmds.breaking out. Unable to run remaining task commands.Writing task id pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets task report to /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/03-interact_with_multiple_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_interact_with_multiple_mapped_ssets-0/task-report.json

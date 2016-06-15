@@ -22,7 +22,7 @@
         "resources": [], 
         "task_id": "pbsmrtpipe_examples.tasks.dev_interact_with_sset", 
         "task_type_id": "pbsmrtpipe_examples.tasks.dev_interact_with_sset", 
-        "uuid": "0c84d2d5-a07a-4ffc-8da3-88c477019c35"
+        "uuid": "7024c968-b7df-4cf9-9a52-643488a0eb66"
     }, 
     "version": "0.40.1"
 }
