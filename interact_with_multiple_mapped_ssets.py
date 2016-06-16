@@ -16,6 +16,9 @@ from pbcore.io import openDataSet
 import plotly
 from plotly.graph_objs import *
 from plotly.offline import download_plotlyjs, plot
+from selenium import webdriver
+phantomjs_driver = webdriver.PhantomJS(executable_path='/home/knyquist/local/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
+
 
 
 log = logging.getLogger(__name__)
@@ -124,17 +127,23 @@ def _example_main(input_file, output_file, **kwargs):
     rows = len( traces )
     fig = plotly.tools.make_subplots(rows=rows, cols=1,
                                      subplot_titles=tuple(titles))
+    fig['layout']['font']['size'] = 8
+    fig['layout'].update(showlegend=False)
     for row,trace in enumerate(traces):
         fig.append_trace(trace, row+1, 1) # convert from zero-based to one-based indexing
-        fig['layout']['xaxis'+str(row+1)]['tickfont'].update(size=16)
-        fig['layout']['yaxis'+str(row+1)]['tickfont'].update(size=16)
+        fig['layout']['xaxis'+str(row+1)]['tickfont'].update(size=20)
+        fig['layout']['yaxis'+str(row+1)]['tickfont'].update(size=20)
         fig['layout']['xaxis'+str(row+1)].update(range=[0,max_rl])
 
     fig['layout']['yaxis'+str(rows/2+1)].update(title='accuracy')
+    fig['layout']['yaxis'+str(rows/2+1)]['titlefont'].update(size=20)
     fig['layout']['xaxis'+str(rows)].update(title='readlength (bases)')
-    fig['layout']['font']['size'] = 20
+    fig['layout']['xaxis'+str(rows)]['titlefont'].update(size=20)
 
-    plot(fig, filename='test-plot.html')
+    plot(fig, filename='test-plot.html', show_link=False, auto_open=False)
+    phantomjs_driver.set_window_size( 1200, 800)
+    phantomjs_driver.get('test-plot.html')
+    phantomjs_driver.save_screenshot('test-plot.png')
 
     return 0
 
