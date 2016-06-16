@@ -1,0 +1,25 @@
+<RunnableTask pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets task type True ncommands 1 nresources 0 >
+Created at 2016-06-16 13:46:13.394860 on login14-biofx03
+Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/input.csv
+Starting to run 1 cmds.[INFO] 2016-06-16 20:46:18,780Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
+[INFO] 2016-06-16 20:46:18,781Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples plot_multiple_mapped_ssets.py tool-contracts:1 >
+[INFO] 2016-06-16 20:46:18,781Z [pbcommand.cli.quick _w 233] Setting log-level to 20
+[INFO] 2016-06-16 20:46:18,781Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/resolved-tool-contract.json
+[INFO] 2016-06-16 20:46:18,782Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets >
+[INFO] 2016-06-16 20:46:18,782Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7f83fe2c8230>
+[INFO] 2016-06-16 20:46:18,782Z [__main__ run_rtc 172] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
+[INFO] 2016-06-16 20:46:18,782Z [__main__ run_rtc 173] Got nproc 1
+[INFO] 2016-06-16 20:46:18,782Z [__main__ _example_main 102] Running example main with /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/input.csv /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/report.json kw:{'alpha': 1234, 'nproc': 1}
+[INFO] 2016-06-16 20:46:18,782Z [__main__ _get_dset_paths 44] Attempting to open input CSV
+[INFO] 2016-06-16 20:46:27,223Z [__main__ _getKPIs 64] Retrieving metrics from aligned subread set
+[INFO] 2016-06-16 20:46:55,736Z [__main__ _getKPIs 64] Retrieving metrics from aligned subread set
+[INFO] 2016-06-16 20:47:25,708Z [__main__ _getKPIs 64] Retrieving metrics from aligned subread set
+This is the format of your plot grid:
+[ (1,1) x1,y1 ]
+[ (2,1) x2,y2 ]
+[ (3,1) x3,y3 ]
+
+[INFO] 2016-06-16 20:47:29,555Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets > exitcode 0 in 70.78 sec.
+completed running cmd 1 of 1. exit code 0 in 82.10 sec on host login14-biofx03
+Successfully validated 0 output file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/report.json' on login14-biofx03 
+Writing task id pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets task report to /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/task-report.json

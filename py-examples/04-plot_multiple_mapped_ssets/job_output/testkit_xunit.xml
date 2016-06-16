@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<testsuite errors="0" failures="0" name="PysivXunitTestSuite" skip="1" tests="29">
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_datastore_json" name="test_job_resource_workflow_files_datastore_json" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_job_resource_dir_exists_tasks" name="test_job_resource_dir_exists_tasks" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_file_exists_job_stdout" name="test_job_resource_file_exists_job_stdout" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_html" name="test_job_resource_dir_exists_html" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_file_exists_job_stderr" name="test_job_resource_file_exists_job_stderr" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_html_images" name="test_job_resource_html_images" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_report_tasks_json" name="test_job_resource_workflow_files_report_tasks_json" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_job_resource_dir_exists_html" name="test_job_resource_dir_exists_html" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_path_exists" name="test_job_path_exists" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreUuids.test_datastore_report_file_uuid" name="test_datastore_report_file_uuid" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_options_task_json" name="test_job_resource_workflow_files_options_task_json" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_load_datastore_from_file" name="test_load_datastore_from_file" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreFileLabels.test_datastore_file_name_and_description" name="test_datastore_file_name_and_description" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_html_css" name="test_job_resource_html_css" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_workflow" name="test_job_resource_dir_exists_workflow" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_options_workflow_json" name="test_job_resource_workflow_files_options_workflow_json" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_zero.TestSmrtPipeReturnCode.test_a_workflow_was_successful" name="test_a_workflow_was_successful" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_html_js" name="test_job_resource_html_js" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStore.test_job_resource_dir_exists_workflow" name="test_job_resource_dir_exists_workflow" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_entry_points_json" name="test_job_resource_workflow_files_entry_points_json" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_zero.TestSmrtPipeReturnCode.test_no_errors_in_log" name="test_no_errors_in_log" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreFiles.test_validators_datastore_file__pacbio_filetypes_jsonreport" name="test_validators_datastore_file__pacbio_filetypes_jsonreport" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_tasks" name="test_job_resource_dir_exists_tasks" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreUuids.test_datastore_dataset_file_uuid" name="test_datastore_dataset_file_uuid" time="1.000">
+        <skipped message="No DataSet XML files in datastore." type="unittest.case.SkipTest" />
+    </testcase>
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_dir_exists_logs" name="test_job_resource_dir_exists_logs" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_workflow_png" name="test_job_resource_workflow_files_workflow_png" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_datastore.TestDataStoreFiles.test_validators_datastore_file__pacbio_filetypes_fasta" name="test_validators_datastore_file__pacbio_filetypes_fasta" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_workflow_dot" name="test_job_resource_workflow_files_workflow_dot" time="1.000" />
+    <testcase classname="pbsmrtpipe.testkit.core.test_resources.TestCoreResources.test_job_resource_workflow_files_workflow_svg" name="test_job_resource_workflow_files_workflow_svg" time="1.000" />
+</testsuite>

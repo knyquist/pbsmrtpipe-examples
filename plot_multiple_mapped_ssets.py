@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os
 import sys
 import logging
 import csv
@@ -10,14 +11,23 @@ sys.path.append('/mnt/usmp-data3/scratch/Labs/Kristofor/python/mhpbb')
 import milhouseBAM as mh
 
 from pbcommand.models import FileTypes
+from pbcommand.models.report import Report, PlotGroup, Plot
 from pbcommand.cli import registry_builder, registry_runner
 from pbcore.io import openDataSet
+
+import plotly
+from plotly.graph_objs import *
+from plotly.offline import download_plotlyjs, plot
+from selenium import webdriver
+phantomjs_driver = webdriver.PhantomJS(executable_path='/home/knyquist/local/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
+
+
 
 log = logging.getLogger(__name__)
 
 NAMESPACE = "pbsmrtpipe_examples"
 
-# the 'Driver' exe needs to be your your path. The first arg will be the path
+# the 'Driver' exe needs to be in your path. The first arg will be the path
 # to the resolved tool contract.
 #
 # Note, When the tool contract is emitted, the 'run-rtc'
@@ -51,6 +61,7 @@ def _getKPIs(mapped_sset, subsampled_mapped_sset):
     """
     Retrieve the KPIs for a single mapped sset in a dictionary structure.
     """
+    log.info("Retrieving metrics from aligned subread set")
     data = {}
     data['holenumber'] = []
     data['readlength'] = []
@@ -99,12 +110,58 @@ def _example_main(input_file, output_file, **kwargs):
         subsampled_dset = _subsample_alignments(dset)
         dsets_kpis[f] = _getKPIs(dset, subsampled_dset)
 
-    pickle.dump(dsets_kpis, open(output_file, 'wb'))
+    # save a simple plot
+    traces = []; titles = []; max_rl = 0
+    for key in dsets_kpis.keys():
+        rl = dsets_kpis[key]['readlength']
+        acc = dsets_kpis[key]['accuracy']
+        if max(rl) > max_rl:
+            max_rl = max(rl)
+        trace = Scatter(
+                x = rl,
+                y = acc,
+                mode='markers'
+        )
+        traces.append( trace )
+        titles.append( str(key) )
+    rows = len( traces )
+    fig = plotly.tools.make_subplots(rows=rows, cols=1,
+                                     subplot_titles=tuple(titles))
+    fig['layout']['font']['size'] = 8
+    fig['layout'].update(showlegend=False)
+    for row,trace in enumerate(traces):
+        fig.append_trace(trace, row+1, 1) # convert from zero-based to one-based indexing
+        fig['layout']['xaxis'+str(row+1)]['tickfont'].update(size=20)
+        fig['layout']['yaxis'+str(row+1)]['tickfont'].update(size=20)
+        fig['layout']['xaxis'+str(row+1)].update(range=[0,max_rl])
+
+    fig['layout']['yaxis'+str(rows/2+1)].update(title='accuracy')
+    fig['layout']['yaxis'+str(rows/2+1)]['titlefont'].update(size=20)
+    fig['layout']['xaxis'+str(rows)].update(title='readlength (bases)')
+    fig['layout']['xaxis'+str(rows)]['titlefont'].update(size=20)
+
+    plot(fig, filename='accuracy_vs_readlength.html', show_link=False, auto_open=False)
+    phantomjs_driver.set_window_size(1920, 1080)
+    phantomjs_driver.get('accuracy_vs_readlength.html')
+    phantomjs_driver.save_screenshot('accuracy_vs_readlength.png')
+    #phantomjs_driver.set_window_size(400, 300) ruins the label size relations etc.
+    phantomjs_driver.get('accuracy_vs_readlength.html')
+    phantomjs_driver.save_screenshot('accuracy_vs_readlength_thumb.png')
+    os.remove('accuracy_vs_readlength.html')
+    plot_path = 'accuracy_vs_readlength.png'
+    thumb_path = 'accuracy_vs_readlength_thumb.png'
+    plot_id = 'accuracy_vs_readlength'
+    acc_rl_plot = Plot(plot_id, plot_path, thumbnail=thumb_path)
+    plot_list = [acc_rl_plot]
+
+    plot_group = PlotGroup('accuracy', plots=plot_list)
+    report = Report('accuracy', tables=(), plotgroups=[plot_group], attributes=())
+    report.write_json( output_file )
 
     return 0
 
 
-@registry("dev_plot_multiple_mapped_ssets", "0.2.2", (FileTypes.CSV, ), (FileTypes.PICKLE, ), nproc=1, options=dict(alpha=1234))
+@registry("dev_plot_multiple_mapped_ssets", "0.2.2", (FileTypes.CSV, ), (FileTypes.REPORT, ), nproc=1, options=dict(alpha=1234))
 def run_rtc(rtc):
     """
     Example Task for grabbing data from multiple mapped ssets. Single input CSV contains path to each mapped sset.

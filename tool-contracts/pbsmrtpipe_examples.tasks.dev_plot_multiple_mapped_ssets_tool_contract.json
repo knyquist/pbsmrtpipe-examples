@@ -1,0 +1,61 @@
+{
+    "driver": {
+        "env": {},
+        "exe": "plot_multiple_mapped_ssets.py run-rtc  ",
+        "serialization": "json"
+    },
+    "tool_contract": {
+        "_comment": "Created by v0.3.28",
+        "description": "Quick tool dev_plot_multiple_mapped_ssets pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets",
+        "input_types": [
+            {
+                "description": "description for PacBio.FileTypes.csv_0",
+                "file_type_id": "PacBio.FileTypes.csv",
+                "id": "Label PacBio.FileTypes.csv_0",
+                "title": "<FileType id=PacBio.FileTypes.csv name=file >"
+            }
+        ],
+        "is_distributed": true,
+        "name": "Tool dev_plot_multiple_mapped_ssets",
+        "nproc": 1,
+        "output_types": [
+            {
+                "default_name": "report",
+                "description": "description for <FileType id=PacBio.FileTypes.JsonReport name=report >",
+                "file_type_id": "PacBio.FileTypes.JsonReport",
+                "id": "Label PacBio.FileTypes.JsonReport_0",
+                "title": "<FileType id=PacBio.FileTypes.JsonReport name=report >"
+            }
+        ],
+        "resource_types": [],
+        "schema_options": [
+            {
+                "$schema": "http://json-schema.org/draft-04/schema#",
+                "pb_option": {
+                    "default": 1234,
+                    "description": "Option alpha description",
+                    "name": "Option alpha",
+                    "option_id": "pbsmrtpipe_examples.task_options.alpha",
+                    "type": "integer"
+                },
+                "properties": {
+                    "pbsmrtpipe_examples.task_options.alpha": {
+                        "default": 1234,
+                        "description": "Option alpha description",
+                        "title": "Option alpha",
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "pbsmrtpipe_examples.task_options.alpha"
+                ],
+                "title": "JSON Schema for pbsmrtpipe_examples.task_options.alpha",
+                "type": "object"
+            }
+        ],
+        "task_type": "pbsmrtpipe.task_types.standard",
+        "tool_contract_id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets"
+    },
+    "tool_contract_id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets",
+    "version": "0.2.2"
+}

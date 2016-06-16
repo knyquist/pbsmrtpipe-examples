@@ -1,0 +1,55 @@
+{
+    "_comment": "Updated at 2016-06-16 13:47:40.174602", 
+    "edges": null, 
+    "nedges": 0, 
+    "nnodes": 5, 
+    "nodes": [
+        {
+            "is_resolved": true, 
+            "klass": "BindingOutFileNode", 
+            "node_id": "PacBio.FileTypes.JsonReport-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/report.json", 
+            "resolved_at": "2016-06-16T13:47:39.146517"
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryPointNode", 
+            "node_id": "eid_csv", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/input.csv", 
+            "run_time": 1.0
+        }, 
+        {
+            "chunk_group_id": null, 
+            "chunk_keys": [], 
+            "cmds": [], 
+            "companion_chunk_task_id": null, 
+            "created_at": "2016-06-16T13:46:11.837421", 
+            "error_message": null, 
+            "is_chunkable": false, 
+            "klass": "TaskBindingNode", 
+            "node_id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets", 
+            "nproc": 1, 
+            "operator_id": null, 
+            "ropts": {}, 
+            "run_time": 82.13, 
+            "state": "successful", 
+            "updated_at": "2016-06-16T13:46:11.837392", 
+            "was_chunked": false, 
+            "was_gathered": false
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "BindingInFileNode", 
+            "node_id": "PacBio.FileTypes.csv-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/input.csv", 
+            "resolved_at": null
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryOutBindingFileNode", 
+            "node_id": "eid_csv.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/input.csv", 
+            "resolved_at": null
+        }
+    ]
+}

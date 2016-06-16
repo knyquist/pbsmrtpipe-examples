@@ -1,0 +1,43 @@
+{
+    "createdAt": "2016-06-16T13:46:12",
+    "files": [
+        {
+            "createdAt": "2016-06-16T13:46:04",
+            "description": "Master log",
+            "fileSize": 2237,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-16T13:46:04",
+            "name": "Master log file",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/logs/master.log",
+            "sourceId": "pbsmrtpipe::master.log",
+            "uniqueId": "ee8d08dc-bdf8-4435-94e4-c3541de111d5"
+        },
+        {
+            "createdAt": "2016-06-16T13:47:21",
+            "description": "description for <FileType id=PacBio.FileTypes.JsonReport name=report >",
+            "fileSize": 639,
+            "fileTypeId": "PacBio.FileTypes.JsonReport",
+            "isChunked": false,
+            "modifiedAt": "2016-06-16T13:47:21",
+            "name": "<FileType id=PacBio.FileTypes.JsonReport name=report >",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/report.json",
+            "sourceId": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-PacBio.FileTypes.JsonReport",
+            "uniqueId": "3f2f64c5-05c4-4a2d-80ac-095b5298033a"
+        },
+        {
+            "createdAt": "2016-06-16T13:46:03",
+            "description": "pbsmrtpipe log",
+            "fileSize": 0,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-16T13:46:03",
+            "name": "pbsmrtpipe log",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/logs/pbsmrtpipe.log",
+            "sourceId": "pbsmrtpipe::pbsmrtpipe.log",
+            "uniqueId": "20027970-51c8-4587-94ae-63e974bc2952"
+        }
+    ],
+    "updatedAt": "2016-06-16T13:47:39",
+    "version": "0.2.2"
+}

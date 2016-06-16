@@ -1,0 +1,28 @@
+{
+    "cluster": null, 
+    "env": {}, 
+    "id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets", 
+    "resource_types": [], 
+    "task": {
+        "cmds": [
+            "plot_multiple_mapped_ssets.py run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/resolved-tool-contract.json"
+        ], 
+        "input_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/input.csv"
+        ], 
+        "is_distributed": true, 
+        "nproc": 1, 
+        "options": {
+            "pbsmrtpipe_examples.task_options.alpha": 1234
+        }, 
+        "output_dir": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0", 
+        "output_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/report.json"
+        ], 
+        "resources": [], 
+        "task_id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets", 
+        "task_type_id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets", 
+        "uuid": "2bb4560e-34bb-479c-b554-8e075347373e"
+    }, 
+    "version": "0.40.1"
+}
