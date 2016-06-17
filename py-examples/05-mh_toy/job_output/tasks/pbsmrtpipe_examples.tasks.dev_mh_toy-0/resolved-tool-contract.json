@@ -7,7 +7,7 @@
     "resolved_tool_contract": {
         "_comment": "Created by pbcommand v0.3.28",
         "input_files": [
-            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv",
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json",
             "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv"
         ],
         "is_distributed": false,

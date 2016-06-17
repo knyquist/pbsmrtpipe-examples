@@ -1,0 +1,23 @@
+{
+	"_condition_doc": "Example of a 'Resequencing' Condition Type",
+	"conditions": [
+	{
+		"condId": "cond_alpha",
+		"subreadset": "/pbi/collections/314/3140085/r54085_20160614_181833/1_A01/m54085_160614_182256.subreadset.xml",
+		"alignmentset": "/pbi/dept/secondary/siv/smrtlink/smrtlink-beta/jobs-root/012/012511/tasks/pbcoretools.tasks.gather_alignmentset-1/file.alignmentset.xml",
+		"referenceset": "/pbi/dept/secondary/siv/references/lambdaNEB/lambdaNEB.referenceset.xml"
+	},
+	{
+		"condId": "cond_beta",
+		"subreadset": "/pbi/collections/315/3150259/r54008_20160614_021104/2_B01/m54008_160614_093245.subreadset.xml",
+		"alignmentset": "/pbi/dept/secondary/siv/smrtlink/smrtlink-beta/jobs-root/012/012494/tasks/pbcoretools.tasks.gather_alignmentset-1/file.alignmentset.xml",
+		"referenceset": "/pbi/dept/secondary/siv/references/ecoliK12_pbi_March2013/ecoliK12_pbi_March2013.referenceset.xml"
+	},
+	{
+		"condId": "cond_gamma",
+		"subreadset": "/pbi/collections/315/3150260/r54075_20160614_021432/2_B01/m54075_160614_093457.subreadset.xml",
+		"alignmentset": "/pbi/dept/secondary/siv/smrtlink/smrtlink-beta/jobs-root/012/012492/tasks/pbcoretools.tasks.gather_alignmentset-1/file.alignmentset.xml",
+		"referenceset": "/pbi/dept/secondary/siv/references/ecoliK12_pbi_March2013/ecoliK12_pbi_March2013.referenceset.xml"
+	}],
+"pipelineId": "pbsmrtpipe:pipelines.my_pipeline"
+}

@@ -10,7 +10,7 @@
         {
             "id": "pbsmrtpipe.total_run_time_sec",
             "name": "Walltime (sec)",
-            "value": 83
+            "value": 99
         },
         {
             "id": "pbsmrtpipe.error_message",
@@ -20,7 +20,7 @@
         {
             "id": "pbsmrtpipe.job_id",
             "name": "Job Id",
-            "value": 765706
+            "value": 806354
         },
         {
             "id": "pbsmrtpipe.job_state",
@@ -48,8 +48,8 @@
                     "header": "Task id",
                     "id": "pbsmrtpipe.tasks.task_id",
                     "values": [
+                        "EntryPointNode eid_ssets PacBio.FileTypes.json",
                         "EntryPointNode eid_plots PacBio.FileTypes.csv",
-                        "EntryPointNode eid_ssets PacBio.FileTypes.csv",
                         "TaskBindingNode pbsmrtpipe_examples.tasks.dev_mh_toy-0"
                     ]
                 },
@@ -77,7 +77,7 @@
                     "values": [
                         1.0,
                         1.0,
-                        78.13
+                        94.75
                     ]
                 },
                 {
@@ -99,8 +99,8 @@
                     "header": "Id",
                     "id": "pbsmrtpipe.entry_points.id",
                     "values": [
-                        "EntryOutBindingFileNode PacBio.FileTypes.csv eid_plots",
-                        "EntryOutBindingFileNode PacBio.FileTypes.csv eid_ssets"
+                        "EntryOutBindingFileNode PacBio.FileTypes.json eid_ssets",
+                        "EntryOutBindingFileNode PacBio.FileTypes.csv eid_plots"
                     ]
                 },
                 {
@@ -115,8 +115,8 @@
                     "header": "Path",
                     "id": "pbsmrtpipe.entry_points.path",
                     "values": [
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv",
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv"
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv"
                     ]
                 }
             ],
@@ -129,10 +129,10 @@
                     "header": "Id",
                     "id": "pbsmrtpipe.file_node.id",
                     "values": [
+                        "EntryOutBindingFileNode PacBio.FileTypes.json eid_ssets",
+                        "BindingInFileNode pbsmrtpipe_examples.tasks.dev_mh_toy-0 PacBio.FileTypes.json-0.0",
                         "EntryOutBindingFileNode PacBio.FileTypes.csv eid_plots",
                         "BindingInFileNode pbsmrtpipe_examples.tasks.dev_mh_toy-0 PacBio.FileTypes.csv-0.1",
-                        "EntryOutBindingFileNode PacBio.FileTypes.csv eid_ssets",
-                        "BindingInFileNode pbsmrtpipe_examples.tasks.dev_mh_toy-0 PacBio.FileTypes.csv-0.0",
                         "BindingOutFileNode pbsmrtpipe_examples.tasks.dev_mh_toy-0 PacBio.FileTypes.JsonReport-0.0"
                     ]
                 },
@@ -151,10 +151,10 @@
                     "header": "Path",
                     "id": "pbsmrtpipe.file_node.path",
                     "values": [
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv",
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv",
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json"
                     ]
                 }
@@ -164,5 +164,5 @@
         }
     ],
     "title": "Report pbsmrtpipe",
-    "uuid": "e213e671-445b-4685-b5c6-542866127819"
+    "uuid": "950a4ba1-d702-4350-9ae8-414c52ab9725"
 }

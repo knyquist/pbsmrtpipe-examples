@@ -1,8 +1,8 @@
 log_filter kw is no longer supported
 Starting pbsmrtpipe v0.40.1
-Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_plots', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv')], [('eid_ssets', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7fb23b946938>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/preset.xml'], service_uri=None)
+Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_plots', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv')], [('eid_ssets', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7f7d184039b0>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/preset.xml'], service_uri=None)
 Starting tool version 0.40.1
-Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_plots', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv')], [('eid_ssets', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7fb23b946938>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/preset.xml'], service_uri=None)
+Namespace(debug=True, disable_chunk_mode=None, entry_points=[[('eid_plots', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv')], [('eid_ssets', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json')]], force_chunk_mode=None, force_distributed=None, func=<function _args_run_pipeline at 0x7f7d184039b0>, local_only=None, output_dir='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output', pipeline_template_xml='/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/pipeline.xml', preset_rc_xml=None, preset_xml=['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/preset.xml'], service_uri=None)
 Loading static meta tasks from /home/knyquist/anaconda2/envs/home/lib/python2.7/site-packages/pbsmrtpipe-0.40.1-py2.7.egg/pbsmrtpipe/registered_tool_contracts_sa3
 <ToolContractMetaTask id:falcon_ns.tasks.task_falcon0_run_daligner_jobs v0.0.0 inputs:2 outputs:1 resources:0 >
 <ToolContractMetaTask id:pbreports.tasks.isoseq_cluster v0.1.0.132615 inputs:2 outputs:1 resources:0 >
@@ -299,7 +299,7 @@ Processing pipeline pbsmrtpipe.pipelines.internal_cond_acc_density
 registering pipeline pbsmrtpipe.pipelines.internal_cond_acc_density
 Registry Loaded. Number of ToolContracts:148 FileTypes:57 ChunkOperators:17 Pipelines:52
 {'eid_plots': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv',
- 'eid_ssets': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv'}
+ 'eid_ssets': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json'}
 validating entry points.
 successfully validated 2 entry points
 Unable to find preset.xml from ENV 'PB_SMRTPIPE_XML_PRESET'
@@ -345,11 +345,11 @@ Chunk mode is False. Disabling 17 chunk operators.
 Initializing Workflow
 creating job resources in /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output
 successfully initialized datastore.
-Command: /home/knyquist/anaconda2/envs/home/bin/pbsmrtpipe pipeline /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/pipeline.xml --debug -e eid_plots:/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv -e eid_ssets:/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv --preset-xml=/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/preset.xml --output-dir=/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output
+Command: /home/knyquist/anaconda2/envs/home/bin/pbsmrtpipe pipeline /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/pipeline.xml --debug -e eid_plots:/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv -e eid_ssets:/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json --preset-xml=/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/preset.xml --output-dir=/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output
 Entry Points:
 
 {   'eid_plots': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv',
-    'eid_ssets': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv'}
+    'eid_ssets': '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json'}
 Workflow Options:
 
 {   'pbsmrtpipe.options.chunk_mode': False,
@@ -370,7 +370,7 @@ Task Options:
     'pbsmrtpipe.task_options.option_id2': None}
 completed setting up job directory resources and logs in /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output
 successfully created job resources.
-starting to execute Distributed workflow with assigned job_id 765706
+starting to execute Distributed workflow with assigned job_id 806354
 system Linux login14-biofx03 nproc:16
 exe'ing workflow Cluster renderer None
 Service URI: None <type 'NoneType'> (fqdn = login14-biofx03.nanofluidics.com)
@@ -383,10 +383,10 @@ validating binding graph
 successfully validated binding graph.
 Starting worker pbsmrtpipe_examples.tasks.dev_mh_toy-0 (1 workers running, 1 total proc in use)
 calling cmd 'mh_toy.py run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/resolved-tool-contract.json' on login14-biofx03
- pid=23122
-Task was successful TaskResult(task_id='pbsmrtpipe_examples.tasks.dev_mh_toy-0', state='successful', error_message='', run_time_sec=78.13)
+ pid=3192
+Task was successful TaskResult(task_id='pbsmrtpipe_examples.tasks.dev_mh_toy-0', state='successful', error_message='', run_time_sec=94.75)
 Validating task pbsmrtpipe_examples.tasks.dev_mh_toy output files ['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json']
 Successfully validated outputs of <TaskBindingNode pbsmrtpipe_examples.tasks.dev_mh_toy-0>
 Workflow status 3/3 completed/total tasks
 Shutting down.
-Completed execution pbsmrtpipe v0.40.1. Workflow was Successful in 84.29 sec (1.40 min)
+Completed execution pbsmrtpipe v0.40.1. Workflow was Successful in 100.48 sec (1.67 min)

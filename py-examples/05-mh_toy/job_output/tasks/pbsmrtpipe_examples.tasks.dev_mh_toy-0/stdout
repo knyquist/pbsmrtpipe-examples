@@ -1,27 +1,27 @@
 <RunnableTask pbsmrtpipe_examples.tasks.dev_mh_toy task type True ncommands 1 nresources 0 >
-Created at 2016-06-16 20:12:12.871524 on login14-biofx03
-Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv
+Created at 2016-06-17 14:17:36.852710 on login14-biofx03
+Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json
 Validated INPUT file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv
-Starting to run 1 cmds.[INFO] 2016-06-17 03:12:18,210Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
-[INFO] 2016-06-17 03:12:18,210Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples mh_toy.py tool-contracts:1 >
-[INFO] 2016-06-17 03:12:18,210Z [pbcommand.cli.quick _w 233] Setting log-level to 20
-[INFO] 2016-06-17 03:12:18,211Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/resolved-tool-contract.json
-[INFO] 2016-06-17 03:12:18,211Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_mh_toy Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_mh_toy >
-[INFO] 2016-06-17 03:12:18,212Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7faa68860050>
-[INFO] 2016-06-17 03:12:18,212Z [__main__ run_rtc 170] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
-[INFO] 2016-06-17 03:12:18,212Z [__main__ run_rtc 171] Got nproc 1
-[INFO] 2016-06-17 03:12:18,212Z [__main__ _example_main 113] Running example main with ['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv'] /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json kw:{'alpha': 1234, 'nproc': 1}
-[INFO] 2016-06-17 03:12:18,212Z [__main__ _get_dset_paths 44] Attempting to open dset paths CSV
-[INFO] 2016-06-17 03:12:18,212Z [__main__ _get_plots_to_generate 56] Attempting to open plots CSV
-[INFO] 2016-06-17 03:12:25,340Z [__main__ _getKPIs 75] Retrieving metrics from aligned subread set
-[INFO] 2016-06-17 03:12:51,290Z [__main__ _getKPIs 75] Retrieving metrics from aligned subread set
-[INFO] 2016-06-17 03:13:16,290Z [__main__ _getKPIs 75] Retrieving metrics from aligned subread set
+Starting to run 1 cmds.[INFO] 2016-06-17 21:17:41,750Z [pbcommand.cli.quick _w 231] Loading pbcommand 0.3.28
+[INFO] 2016-06-17 21:17:41,751Z [pbcommand.cli.quick _w 232] Registry <Registry pbsmrtpipe_examples mh_toy.py tool-contracts:1 >
+[INFO] 2016-06-17 21:17:41,751Z [pbcommand.cli.quick _w 233] Setting log-level to 20
+[INFO] 2016-06-17 21:17:41,751Z [pbcommand.cli.quick _w 235] loading RTC from /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/resolved-tool-contract.json
+[INFO] 2016-06-17 21:17:41,752Z [pbcommand.cli.quick _w 245] Running id:pbsmrtpipe_examples.tasks.dev_mh_toy Resolved Tool Contract <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_mh_toy >
+[INFO] 2016-06-17 21:17:41,752Z [pbcommand.cli.quick _w 246] Runner func <function run_rtc at 0x7fd069f3a0c8>
+[INFO] 2016-06-17 21:17:41,752Z [__main__ run_rtc 177] Got RTC task options {u'pbsmrtpipe_examples.task_options.alpha': 1234}
+[INFO] 2016-06-17 21:17:41,752Z [__main__ run_rtc 178] Got nproc 1
+[INFO] 2016-06-17 21:17:41,752Z [__main__ _example_main 120] Running example main with ['/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json', '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv'] /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json kw:{'alpha': 1234, 'nproc': 1}
+[INFO] 2016-06-17 21:17:41,753Z [__main__ _get_dset_paths 44] Attempting to open condition JSON
+[INFO] 2016-06-17 21:17:41,753Z [__main__ _get_plots_to_generate 61] Attempting to open plots CSV
+[INFO] 2016-06-17 21:18:12,561Z [__main__ _getKPIs 82] Retrieving metrics from aligned subread set
+[INFO] 2016-06-17 21:18:24,267Z [__main__ _getKPIs 82] Retrieving metrics from aligned subread set
+[INFO] 2016-06-17 21:18:55,269Z [__main__ _getKPIs 82] Retrieving metrics from aligned subread set
 This is the format of your plot grid:
 [ (1,1) x1,y1 ]
 [ (2,1) x2,y2 ]
 [ (3,1) x3,y3 ]
 
-[INFO] 2016-06-17 03:13:24,451Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_mh_toy > exitcode 0 in 66.24 sec.
-completed running cmd 1 of 1. exit code 0 in 78.10 sec on host login14-biofx03
+[INFO] 2016-06-17 21:19:03,681Z [pbcommand.cli.quick _w 249] Completed running <ResolvedToolContract id:pbsmrtpipe_examples.tasks.dev_mh_toy > exitcode 0 in 81.93 sec.
+completed running cmd 1 of 1. exit code 0 in 94.72 sec on host login14-biofx03
 Successfully validated 0 output file '/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json' on login14-biofx03 
 Writing task id pbsmrtpipe_examples.tasks.dev_mh_toy task report to /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/task-report.json

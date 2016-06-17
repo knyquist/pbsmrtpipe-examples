@@ -9,7 +9,8 @@ import pickle
 
 import accuracy_plots
 
-from pbcommand.models import FileTypes
+from pbcommand.models import FileTypes, ReseqConditions
+from pbcommand.pb_io import load_reseq_conditions_from
 from pbcommand.models.report import Report, PlotGroup, Plot
 from pbcommand.cli import registry_builder, registry_runner
 from pbcore.io import openDataSet
@@ -40,16 +41,20 @@ registry = registry_builder(
 
 
 def _get_dset_paths(file):
-    dset_paths = []
-    log.info("Attempting to open dset paths CSV")
-    with open(file, 'rb') as csvfile:
-        reader = csv.reader(csvfile)
-        for mapped_sset in reader:
-            # check for a commented line (like a header)
-            if mapped_sset[0][0] is not '#':
-                absolute_filename = mapped_sset[0]
-                dset_paths.append(absolute_filename)
+    log.info("Attempting to open condition JSON")
+    json = load_reseq_conditions_from(file)
+    dset_paths = {}
+    for condition in json.conditions:
+        if condition.cond_id not in dset_paths.keys():
+            dset_paths[condition.cond_id] = {'aset': [],
+                                             'sset': [],
+                                             'rset': []}
+        dset_paths[condition.cond_id]['aset'] = condition.alignmentset
+        dset_paths[condition.cond_id]['sset'] = condition.subreadset
+        dset_paths[condition.cond_id]['rset'] = condition.referenceset
+
     return dset_paths
+
 
 def _get_plots_to_generate(file):
     plots_to_generate = []
@@ -61,7 +66,9 @@ def _get_plots_to_generate(file):
                 if int(plot_name[1]) == 1:
                     name = plot_name[0]
                     plots_to_generate.append(name)
+
     return plots_to_generate
+
 
 def _subsample_alignments(mapped_subreadset, num=1000):
     ss = random.sample(mapped_subreadset, num)
@@ -120,13 +127,13 @@ def _example_main(input_file, output_file, **kwargs):
 
     dsets_kpis = {}
     for f in dset_paths:
-        dset = openDataSet(f)
+        dset = openDataSet(dset_paths[f]['aset'])
         subsampled_dset = _subsample_alignments(dset)
         dsets_kpis[f] = _getKPIs(dset, subsampled_dset)
 
     figures = []
+    # figure tuple has form (plot_group_id, plot_id, figure)
     if 'accuracy_vs_readlength' in plots_to_generate:
-        # figure tuple has form (plot_group_id, plot_id, figure)
         figures.append(('accuracy', 'accuracy_vs_readlength', accuracy_plots._plot_accuracy_vs_readlength(dsets_kpis)))
     if 'accuracy' in plots_to_generate:
         figures.append(('accuracy', 'accuracy', accuracy_plots._plot_accuracy_distribution(dsets_kpis)))
@@ -159,7 +166,7 @@ def _example_main(input_file, output_file, **kwargs):
     return 0
 
 
-@registry("dev_mh_toy", "0.2.2", (FileTypes.CSV, FileTypes.CSV), (FileTypes.REPORT, ), nproc=1, options=dict(alpha=1234))
+@registry("dev_mh_toy", "0.2.2", (FileTypes.JSON, FileTypes.CSV), (FileTypes.REPORT, ), nproc=1, options=dict(alpha=1234))
 def run_rtc(rtc):
     """
     Example Task for grabbing data from multiple mapped ssets. Single input CSV contains path to each mapped sset.
