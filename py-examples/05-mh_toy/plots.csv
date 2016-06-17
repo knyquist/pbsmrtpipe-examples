@@ -1,0 +1,4 @@
+# list of plots to generate
+accuracy_vs_readlength,1
+accuracy,1
+accuracy_boxplot,1

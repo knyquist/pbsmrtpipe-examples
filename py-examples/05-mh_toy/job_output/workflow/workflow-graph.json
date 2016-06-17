@@ -1,0 +1,76 @@
+{
+    "_comment": "Updated at 2016-06-16 20:13:35.550695", 
+    "edges": null, 
+    "nedges": 0, 
+    "nnodes": 8, 
+    "nodes": [
+        {
+            "chunk_group_id": null, 
+            "chunk_keys": [], 
+            "cmds": [], 
+            "companion_chunk_task_id": null, 
+            "created_at": "2016-06-16T20:12:11.286364", 
+            "error_message": null, 
+            "is_chunkable": false, 
+            "klass": "TaskBindingNode", 
+            "node_id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
+            "nproc": 1, 
+            "operator_id": null, 
+            "ropts": {}, 
+            "run_time": 78.13, 
+            "state": "successful", 
+            "updated_at": "2016-06-16T20:12:11.286343", 
+            "was_chunked": false, 
+            "was_gathered": false
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryOutBindingFileNode", 
+            "node_id": "eid_ssets.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv", 
+            "resolved_at": null
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryPointNode", 
+            "node_id": "eid_ssets", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv", 
+            "run_time": 1.0
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "BindingOutFileNode", 
+            "node_id": "PacBio.FileTypes.JsonReport-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json", 
+            "resolved_at": "2016-06-16T20:13:34.686285"
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryOutBindingFileNode", 
+            "node_id": "eid_plots.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv", 
+            "resolved_at": null
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "EntryPointNode", 
+            "node_id": "eid_plots", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv", 
+            "run_time": 1.0
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "BindingInFileNode", 
+            "node_id": "PacBio.FileTypes.csv-0.0", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv", 
+            "resolved_at": null
+        }, 
+        {
+            "is_resolved": true, 
+            "klass": "BindingInFileNode", 
+            "node_id": "PacBio.FileTypes.csv-0.1", 
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv", 
+            "resolved_at": null
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "pbsmrtpipe.options.chunk_mode": false, 
+    "pbsmrtpipe.options.cluster_manager": null, 
+    "pbsmrtpipe.options.debug_mode": true, 
+    "pbsmrtpipe.options.distributed_mode": false, 
+    "pbsmrtpipe.options.exit_on_failure": false, 
+    "pbsmrtpipe.options.max_nchunks": 24, 
+    "pbsmrtpipe.options.max_nproc": 16, 
+    "pbsmrtpipe.options.max_nworkers": 100, 
+    "pbsmrtpipe.options.max_total_nproc": 16, 
+    "pbsmrtpipe.options.progress_status_url": null, 
+    "pbsmrtpipe.options.tmp_dir": "/tmp"
+}

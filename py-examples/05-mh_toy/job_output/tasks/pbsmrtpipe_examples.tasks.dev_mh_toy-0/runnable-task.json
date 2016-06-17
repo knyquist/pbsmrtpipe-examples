@@ -1,0 +1,29 @@
+{
+    "cluster": null, 
+    "env": {}, 
+    "id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
+    "resource_types": [], 
+    "task": {
+        "cmds": [
+            "mh_toy.py run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/resolved-tool-contract.json"
+        ], 
+        "input_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv", 
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv"
+        ], 
+        "is_distributed": true, 
+        "nproc": 1, 
+        "options": {
+            "pbsmrtpipe_examples.task_options.alpha": 1234
+        }, 
+        "output_dir": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0", 
+        "output_files": [
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json"
+        ], 
+        "resources": [], 
+        "task_id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
+        "task_type_id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
+        "uuid": "bae258e1-c2c0-4ee8-b073-1d22cc1d174d"
+    }, 
+    "version": "0.40.1"
+}

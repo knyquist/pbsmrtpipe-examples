@@ -1,43 +1,43 @@
 {
-    "createdAt": "2016-06-16T13:46:12",
+    "createdAt": "2016-06-16T17:08:46",
     "files": [
         {
-            "createdAt": "2016-06-16T13:46:04",
-            "description": "Master log",
-            "fileSize": 2237,
-            "fileTypeId": "PacBio.FileTypes.log",
-            "isChunked": false,
-            "modifiedAt": "2016-06-16T13:46:04",
-            "name": "Master log file",
-            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/logs/master.log",
-            "sourceId": "pbsmrtpipe::master.log",
-            "uniqueId": "ee8d08dc-bdf8-4435-94e4-c3541de111d5"
-        },
-        {
-            "createdAt": "2016-06-16T13:47:21",
+            "createdAt": "2016-06-16T17:09:58",
             "description": "description for <FileType id=PacBio.FileTypes.JsonReport name=report >",
             "fileSize": 639,
             "fileTypeId": "PacBio.FileTypes.JsonReport",
             "isChunked": false,
-            "modifiedAt": "2016-06-16T13:47:21",
+            "modifiedAt": "2016-06-16T17:09:58",
             "name": "<FileType id=PacBio.FileTypes.JsonReport name=report >",
             "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/tasks/pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-0/report.json",
             "sourceId": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets-PacBio.FileTypes.JsonReport",
-            "uniqueId": "3f2f64c5-05c4-4a2d-80ac-095b5298033a"
+            "uniqueId": "46634bb7-d026-4f60-b9a5-448c6a3a8193"
         },
         {
-            "createdAt": "2016-06-16T13:46:03",
+            "createdAt": "2016-06-16T13:47:31",
             "description": "pbsmrtpipe log",
-            "fileSize": 0,
+            "fileSize": 4192,
             "fileTypeId": "PacBio.FileTypes.log",
             "isChunked": false,
-            "modifiedAt": "2016-06-16T13:46:03",
+            "modifiedAt": "2016-06-16T13:47:31",
             "name": "pbsmrtpipe log",
             "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/logs/pbsmrtpipe.log",
             "sourceId": "pbsmrtpipe::pbsmrtpipe.log",
-            "uniqueId": "20027970-51c8-4587-94ae-63e974bc2952"
+            "uniqueId": "8822a8b9-c12e-4102-ba8e-c01448baa815"
+        },
+        {
+            "createdAt": "2016-06-16T17:08:45",
+            "description": "Master log",
+            "fileSize": 217417,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-16T17:08:45",
+            "name": "Master log file",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/04-plot_multiple_mapped_ssets/job_output/logs/master.log",
+            "sourceId": "pbsmrtpipe::master.log",
+            "uniqueId": "b97bbd1c-52b3-48b0-89fb-bf150882c322"
         }
     ],
-    "updatedAt": "2016-06-16T13:47:39",
+    "updatedAt": "2016-06-16T17:10:06",
     "version": "0.2.2"
 }

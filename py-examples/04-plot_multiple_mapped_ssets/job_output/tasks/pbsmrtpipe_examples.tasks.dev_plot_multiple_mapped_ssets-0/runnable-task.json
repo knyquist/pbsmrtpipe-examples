@@ -22,7 +22,7 @@
         "resources": [], 
         "task_id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets", 
         "task_type_id": "pbsmrtpipe_examples.tasks.dev_plot_multiple_mapped_ssets", 
-        "uuid": "2bb4560e-34bb-479c-b554-8e075347373e"
+        "uuid": "859e94ba-4d9f-4430-951d-be6257478362"
     }, 
     "version": "0.40.1"
 }

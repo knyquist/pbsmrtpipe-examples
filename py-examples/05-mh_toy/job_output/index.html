@@ -1,0 +1,272 @@
+<!-- Core Base Template for all pbsmrtpipe HTML reports -->
+<html>
+<head>
+    <title> pbsmrtpipe :: Job ::  MyReport </title>
+    <link href="../html/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+<div class="container">
+          <nav class="navbar navbar-default navbar-static-top" role="navigation">
+              <ul class="nav navbar-nav">
+                  <li><a href="../index.html">Summary</a></li>
+                  <li><a href="../html/settings.html">Settings</a></li>
+                  <li><a href="../html/datastore.html">DataStore</a></li>
+                   <li><a href="../html/task_summary.html">Task Summary</a></li>
+                  <li><a href="../html/workflow.html">Workflow</a></li>
+                  <li><a href="../html/analysis.html">Analysis Report</a></li>
+              </ul>
+        </nav>
+    
+
+    <h1>Report pbsmrtpipe</h1>
+
+    <!-- Report Attributes -->
+    <h3>Attributes</h3>
+        <div class="panel panel-default">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <td>Attribute Id</td>
+                    <td>Name</td>
+                    <td>Value</td>
+                </tr>
+                </thead>
+                
+                    <tr>
+                        <td>was_successful</td>
+                        <td> Was Successful</td>
+                        <td>True</td>
+                    </tr>
+                
+                    <tr>
+                        <td>total_run_time_sec</td>
+                        <td> Walltime (sec)</td>
+                        <td>83</td>
+                    </tr>
+                
+                    <tr>
+                        <td>error_message</td>
+                        <td> Error Message</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>job_id</td>
+                        <td> Job Id</td>
+                        <td>765706</td>
+                    </tr>
+                
+                    <tr>
+                        <td>job_state</td>
+                        <td> Job State</td>
+                        <td>successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td>job_output_dir</td>
+                        <td> Job Output Directory</td>
+                        <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output</td>
+                    </tr>
+                
+                    <tr>
+                        <td>pbsmrtpipe_version</td>
+                        <td> pbsmrtpipe Version</td>
+                        <td>0.40.1</td>
+                    </tr>
+                
+
+            </table>
+        </div>
+    
+
+    <!-- Report Tables -->
+    
+        <h3>Table tasks</h3>
+        <div class="panel panel-default">
+
+            <table class="table table-striped">
+                <thead>
+                
+                    <th>task_id</th>
+                
+                    <th>was_successful</th>
+                
+                    <th>state</th>
+                
+                    <th>run_time_sec</th>
+                
+                    <th>nproc</th>
+                
+                </thead>
+                
+                    <tr>
+                        
+                            <td>EntryPointNode eid_plots PacBio.FileTypes.csv</td>
+                        
+                            <td>True</td>
+                        
+                            <td>successful</td>
+                        
+                            <td>1.0</td>
+                        
+                            <td>1</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>EntryPointNode eid_ssets PacBio.FileTypes.csv</td>
+                        
+                            <td>True</td>
+                        
+                            <td>successful</td>
+                        
+                            <td>1.0</td>
+                        
+                            <td>1</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>TaskBindingNode pbsmrtpipe_examples.tasks.dev_mh_toy-0</td>
+                        
+                            <td>True</td>
+                        
+                            <td>successful</td>
+                        
+                            <td>78.13</td>
+                        
+                            <td>1</td>
+                        
+                    </tr>
+                
+            </table>
+        </div>
+    
+
+    
+        <h3>Table entry_points</h3>
+        <div class="panel panel-default">
+
+            <table class="table table-striped">
+                <thead>
+                
+                    <th>id</th>
+                
+                    <th>is_resolved</th>
+                
+                    <th>path</th>
+                
+                </thead>
+                
+                    <tr>
+                        
+                            <td>EntryOutBindingFileNode PacBio.FileTypes.csv eid_plots</td>
+                        
+                            <td>True</td>
+                        
+                            <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>EntryOutBindingFileNode PacBio.FileTypes.csv eid_ssets</td>
+                        
+                            <td>True</td>
+                        
+                            <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv</td>
+                        
+                    </tr>
+                
+            </table>
+        </div>
+    
+
+    
+        <h3>Table file_node</h3>
+        <div class="panel panel-default">
+
+            <table class="table table-striped">
+                <thead>
+                
+                    <th>id</th>
+                
+                    <th>is_resolved</th>
+                
+                    <th>path</th>
+                
+                </thead>
+                
+                    <tr>
+                        
+                            <td>EntryOutBindingFileNode PacBio.FileTypes.csv eid_plots</td>
+                        
+                            <td>True</td>
+                        
+                            <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>BindingInFileNode pbsmrtpipe_examples.tasks.dev_mh_toy-0 PacBio.FileTypes.csv-0.1</td>
+                        
+                            <td>True</td>
+                        
+                            <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>EntryOutBindingFileNode PacBio.FileTypes.csv eid_ssets</td>
+                        
+                            <td>True</td>
+                        
+                            <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>BindingInFileNode pbsmrtpipe_examples.tasks.dev_mh_toy-0 PacBio.FileTypes.csv-0.0</td>
+                        
+                            <td>True</td>
+                        
+                            <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/ssets.csv</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>BindingOutFileNode pbsmrtpipe_examples.tasks.dev_mh_toy-0 PacBio.FileTypes.JsonReport-0.0</td>
+                        
+                            <td>True</td>
+                        
+                            <td>/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json</td>
+                        
+                    </tr>
+                
+            </table>
+        </div>
+    
+
+    
+
+    <!-- Report PlotGroups -->
+    
+
+    <!-- End -->
+
+<!-- Close main bootstrap div -->
+</div>
+
+<!-- javascripts -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../html/js/bootstrap.min.js"></script>
+</body>
+</html>
