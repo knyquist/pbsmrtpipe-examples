@@ -1,5 +1,5 @@
 {
-    "_comment": "Updated at 2016-06-17 14:19:15.727463", 
+    "_comment": "Updated at 2016-06-20 15:31:42.403317", 
     "edges": null, 
     "nedges": 0, 
     "nnodes": 8, 
@@ -9,7 +9,7 @@
             "chunk_keys": [], 
             "cmds": [], 
             "companion_chunk_task_id": null, 
-            "created_at": "2016-06-17T14:17:35.268055", 
+            "created_at": "2016-06-20T15:29:53.054975", 
             "error_message": null, 
             "is_chunkable": false, 
             "klass": "TaskBindingNode", 
@@ -17,9 +17,9 @@
             "nproc": 1, 
             "operator_id": null, 
             "ropts": {}, 
-            "run_time": 94.75, 
+            "run_time": 103.65, 
             "state": "successful", 
-            "updated_at": "2016-06-17T14:17:35.268042", 
+            "updated_at": "2016-06-20T15:29:53.054961", 
             "was_chunked": false, 
             "was_gathered": false
         }, 
@@ -70,7 +70,7 @@
             "klass": "BindingOutFileNode", 
             "node_id": "PacBio.FileTypes.JsonReport-0.0", 
             "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json", 
-            "resolved_at": "2016-06-17T14:19:14.822258"
+            "resolved_at": "2016-06-20T15:31:41.544217"
         }
     ]
 }

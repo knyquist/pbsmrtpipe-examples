@@ -93,12 +93,11 @@ def _getKPIs(mapped_sset, subsampled_mapped_sset):
     for aln in subsampled_mapped_sset:
         data['holenumber'].append(aln.HoleNumber)
         data['readlength'].append(float(aln.readEnd - aln.readStart))
-        data['templatespan'].append(
-            float(aln.referenceEnd - aln.referenceStart))
-        data['insertions'].append(float(aln.nIns) / data['readlength'][-1])
-        data['deletions'].append(float(aln.nDel) / data['readlength'][-1])
-        data['mismatches'].append(float(aln.nMM) / data['readlength'][-1])
-        error_rate = (aln.nIns + aln.nDel + aln.nMM) / data['readlength'][-1]
+        data['templatespan'].append(float(aln.referenceEnd - aln.referenceStart))
+        data['insertions'].append(float(aln.nIns) / data['templatespan'][-1])
+        data['deletions'].append(float(aln.nDel) / data['templatespan'][-1])
+        data['mismatches'].append(float(aln.nMM) / data['templatespan'][-1])
+        error_rate = (aln.nIns + aln.nDel + aln.nMM) / data['templatespan'][-1]
         data['accuracy'].append(1 - error_rate)
         data['IPD'].append(aln.IPD())
 
