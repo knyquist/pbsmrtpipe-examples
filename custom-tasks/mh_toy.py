@@ -15,10 +15,12 @@ from pbcommand.models.report import Report, PlotGroup, Plot
 from pbcommand.cli import registry_builder, registry_runner
 from pbcore.io import openDataSet
 
+sys.path.append('/mnt/usmp-data3/scratch/Labs/Kristofor/python/plotly')
 import plotly
 from plotly.graph_objs import *
 from plotly.offline import download_plotlyjs, plot
 
+sys.path.append('/mnt/usmp-data3/scratch/Labs/Kristofor/python/selenium/py')
 from selenium import webdriver
 phantomjs_driver = webdriver.PhantomJS(executable_path='/home/knyquist/local/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
 
