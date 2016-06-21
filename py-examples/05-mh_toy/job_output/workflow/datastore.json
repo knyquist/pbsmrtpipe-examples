@@ -1,43 +1,43 @@
 {
-    "createdAt": "2016-06-21T14:22:32",
+    "createdAt": "2016-06-21T14:48:07",
     "files": [
         {
-            "createdAt": "2016-06-21T14:22:30",
-            "description": "pbsmrtpipe log",
-            "fileSize": 0,
-            "fileTypeId": "PacBio.FileTypes.log",
-            "isChunked": false,
-            "modifiedAt": "2016-06-21T14:22:30",
-            "name": "pbsmrtpipe log",
-            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/logs/pbsmrtpipe.log",
-            "sourceId": "pbsmrtpipe::pbsmrtpipe.log",
-            "uniqueId": "4273d4bd-5b82-4e28-bc70-a52c0ec7a76b"
-        },
-        {
-            "createdAt": "2016-06-21T14:24:11",
-            "description": "description for <FileType id=PacBio.FileTypes.JsonReport name=report >",
-            "fileSize": 991,
-            "fileTypeId": "PacBio.FileTypes.JsonReport",
-            "isChunked": false,
-            "modifiedAt": "2016-06-21T14:24:11",
-            "name": "<FileType id=PacBio.FileTypes.JsonReport name=report >",
-            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json",
-            "sourceId": "pbsmrtpipe_examples.tasks.dev_mh_toy-PacBio.FileTypes.JsonReport",
-            "uniqueId": "fbb707b3-905f-4011-b22a-4cb3ab3f2a6e"
-        },
-        {
-            "createdAt": "2016-06-21T14:22:31",
+            "createdAt": "2016-06-21T14:48:06",
             "description": "Master log",
             "fileSize": 2077,
             "fileTypeId": "PacBio.FileTypes.log",
             "isChunked": false,
-            "modifiedAt": "2016-06-21T14:22:31",
+            "modifiedAt": "2016-06-21T14:48:06",
             "name": "Master log file",
             "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/logs/master.log",
             "sourceId": "pbsmrtpipe::master.log",
-            "uniqueId": "3d398376-e6cf-4e4c-9f75-84b98ae1880a"
+            "uniqueId": "8ebcaed4-fd0b-4282-abe3-c6fc8c9ee6fe"
+        },
+        {
+            "createdAt": "2016-06-21T14:48:06",
+            "description": "pbsmrtpipe log",
+            "fileSize": 0,
+            "fileTypeId": "PacBio.FileTypes.log",
+            "isChunked": false,
+            "modifiedAt": "2016-06-21T14:48:06",
+            "name": "pbsmrtpipe log",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/logs/pbsmrtpipe.log",
+            "sourceId": "pbsmrtpipe::pbsmrtpipe.log",
+            "uniqueId": "9f85768c-272e-49ea-9b1c-9934f3d091ba"
+        },
+        {
+            "createdAt": "2016-06-21T14:49:38",
+            "description": "description for <FileType id=PacBio.FileTypes.JsonReport name=report >",
+            "fileSize": 991,
+            "fileTypeId": "PacBio.FileTypes.JsonReport",
+            "isChunked": false,
+            "modifiedAt": "2016-06-21T14:49:38",
+            "name": "<FileType id=PacBio.FileTypes.JsonReport name=report >",
+            "path": "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json",
+            "sourceId": "pbsmrtpipe_examples.tasks.dev_mh_toy-PacBio.FileTypes.JsonReport",
+            "uniqueId": "75a7839c-3bab-4a0f-8109-28099f9700c0"
         }
     ],
-    "updatedAt": "2016-06-21T14:24:23",
+    "updatedAt": "2016-06-21T14:49:50",
     "version": "0.2.2"
 }

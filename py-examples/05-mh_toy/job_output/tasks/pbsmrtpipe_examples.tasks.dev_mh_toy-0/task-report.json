@@ -1,6 +1,6 @@
 {
     "_changelist": "UNKNOWN",
-    "_version": "0.3.29",
+    "_version": "0.3.28",
     "attributes": [
         {
             "id": "workflow_task.host",
@@ -15,7 +15,7 @@
         {
             "id": "workflow_task.run_time",
             "name": null,
-            "value": 108.23776292800903
+            "value": 99.13319802284241
         },
         {
             "id": "workflow_task.exit_code",
@@ -38,5 +38,5 @@
     "plotGroups": [],
     "tables": [],
     "title": "Report workflow_task",
-    "uuid": "9ccc71ca-3636-43bd-a23c-63e51b68bbf3"
+    "uuid": "cfac3923-2538-4284-b182-39b8dac32452"
 }

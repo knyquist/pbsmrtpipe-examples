@@ -168,7 +168,7 @@ def _example_main(input_file, output_file, **kwargs):
     return 0
 
 
-@registry("dev_mh_toy", "0.2.2", (FileTypes.JSON, ), (FileTypes.REPORT, ), nproc=1, options=dict(alpha=1234))
+@registry("dev_mh_toy", "0.2.2", (FileTypes.COND_RESEQ, ), (FileTypes.REPORT, ), nproc=1, options=dict(alpha=1234))
 def run_rtc(rtc):
     """
     Example Task for grabbing data from multiple mapped ssets. Single input CSV contains path to each mapped sset.

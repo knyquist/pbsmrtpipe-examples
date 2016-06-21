@@ -1,6 +1,6 @@
 {
     "_changelist": "UNKNOWN",
-    "_version": "0.3.29",
+    "_version": "0.3.28",
     "attributes": [
         {
             "id": "pbsmrtpipe.was_successful",
@@ -10,7 +10,7 @@
         {
             "id": "pbsmrtpipe.total_run_time_sec",
             "name": "Walltime (sec)",
-            "value": 111
+            "value": 104
         },
         {
             "id": "pbsmrtpipe.error_message",
@@ -20,7 +20,7 @@
         {
             "id": "pbsmrtpipe.job_id",
             "name": "Job Id",
-            "value": 823325
+            "value": 424709
         },
         {
             "id": "pbsmrtpipe.job_state",
@@ -77,7 +77,7 @@
                     "values": [
                         1.0,
                         1.0,
-                        108.27
+                        99.15
                     ]
                 },
                 {
@@ -115,7 +115,7 @@
                     "header": "Path",
                     "id": "pbsmrtpipe.entry_points.path",
                     "values": [
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions-reseq.json",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv"
                     ]
                 }
@@ -151,8 +151,8 @@
                     "header": "Path",
                     "id": "pbsmrtpipe.file_node.path",
                     "values": [
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json",
-                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions-reseq.json",
+                        "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions-reseq.json",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv",
                         "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/report.json"
@@ -164,5 +164,5 @@
         }
     ],
     "title": "Report pbsmrtpipe",
-    "uuid": "47e741f2-507e-4780-9903-aedfc5c50709"
+    "uuid": "abe12166-fb07-4265-9c44-db828d5d6350"
 }

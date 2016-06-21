@@ -8,7 +8,7 @@
             "mh_toy.py run-rtc   /mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/job_output/tasks/pbsmrtpipe_examples.tasks.dev_mh_toy-0/resolved-tool-contract.json"
         ], 
         "input_files": [
-            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions.json", 
+            "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/conditions-reseq.json", 
             "/mnt/data3/scratch/Labs/Kristofor/python/pbsmrtpipe-examples/py-examples/05-mh_toy/plots.csv"
         ], 
         "is_distributed": true, 
@@ -23,7 +23,7 @@
         "resources": [], 
         "task_id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
         "task_type_id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
-        "uuid": "893fa756-8417-4bbb-a37e-f163d9685f7f"
+        "uuid": "9b15e332-1367-416a-a0e8-33a778d5c2e6"
     }, 
     "version": "0.40.1"
 }
