@@ -1,6 +1,6 @@
 {
     "_changelist": "UNKNOWN",
-    "_version": "0.3.28",
+    "_version": "0.3.29",
     "attributes": [
         {
             "id": "pbsmrtpipe.was_successful",
@@ -10,7 +10,7 @@
         {
             "id": "pbsmrtpipe.total_run_time_sec",
             "name": "Walltime (sec)",
-            "value": 108
+            "value": 111
         },
         {
             "id": "pbsmrtpipe.error_message",
@@ -20,7 +20,7 @@
         {
             "id": "pbsmrtpipe.job_id",
             "name": "Job Id",
-            "value": 805305
+            "value": 823325
         },
         {
             "id": "pbsmrtpipe.job_state",
@@ -77,7 +77,7 @@
                     "values": [
                         1.0,
                         1.0,
-                        103.65
+                        108.27
                     ]
                 },
                 {
@@ -164,5 +164,5 @@
         }
     ],
     "title": "Report pbsmrtpipe",
-    "uuid": "c09f9a87-e460-4ac3-b35a-e792ad185cb0"
+    "uuid": "47e741f2-507e-4780-9903-aedfc5c50709"
 }

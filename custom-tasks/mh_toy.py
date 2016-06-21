@@ -60,15 +60,16 @@ def _get_dset_paths(file):
 
 def _get_plots_to_generate(file):
     plots_to_generate = []
-    log.info("Attempting to open plots CSV")
-    with open(file, 'rb') as csvfile:
-        reader = csv.reader(csvfile)
-        for plot_name in reader:
-            if plot_name[0][0] is not '#':
-                if int(plot_name[1]) == 1:
-                    name = plot_name[0]
-                    plots_to_generate.append(name)
+    # log.info("Attempting to open plots CSV")
+    # with open(file, 'rb') as csvfile:
+    #     reader = csv.reader(csvfile)
+    #     for plot_name in reader:
+    #         if plot_name[0][0] is not '#':
+    #             if int(plot_name[1]) == 1:
+    #                 name = plot_name[0]
+    #                 plots_to_generate.append(name)
 
+    plots_to_generate = ['accuracy_vs_readlength', 'accuracy', 'accuracy_boxplot']
     return plots_to_generate
 
 
@@ -167,7 +168,7 @@ def _example_main(input_file, output_file, **kwargs):
     return 0
 
 
-@registry("dev_mh_toy", "0.2.2", (FileTypes.JSON, FileTypes.CSV), (FileTypes.REPORT, ), nproc=1, options=dict(alpha=1234))
+@registry("dev_mh_toy", "0.2.2", (FileTypes.JSON, ), (FileTypes.REPORT, ), nproc=1, options=dict(alpha=1234))
 def run_rtc(rtc):
     """
     Example Task for grabbing data from multiple mapped ssets. Single input CSV contains path to each mapped sset.

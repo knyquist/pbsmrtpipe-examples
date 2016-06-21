@@ -5,7 +5,7 @@
         "serialization": "json"
     },
     "tool_contract": {
-        "_comment": "Created by v0.3.28",
+        "_comment": "Created by v0.3.29",
         "description": "Quick tool dev_mh_toy pbsmrtpipe_examples.tasks.dev_mh_toy",
         "input_types": [
             {

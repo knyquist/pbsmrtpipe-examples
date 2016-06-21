@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/mnt/usmp-data3/scratch/Labs/Kristofor/python/plotly')
 import plotly
 from plotly.tools import FigureFactory as FF
 from plotly.graph_objs import *
