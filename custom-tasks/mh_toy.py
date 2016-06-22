@@ -165,6 +165,8 @@ def _example_main(input_file, output_file, **kwargs):
     report = Report('mh_toy', tables=(), plotgroups=plot_groups, attributes=())
     report.write_json( output_file )
 
+    phantomjs_driver.quit()
+
     return 0
 
 

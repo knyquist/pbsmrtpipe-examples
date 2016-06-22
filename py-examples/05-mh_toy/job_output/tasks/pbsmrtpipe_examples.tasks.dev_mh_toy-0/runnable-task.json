@@ -23,7 +23,7 @@
         "resources": [], 
         "task_id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
         "task_type_id": "pbsmrtpipe_examples.tasks.dev_mh_toy", 
-        "uuid": "9b15e332-1367-416a-a0e8-33a778d5c2e6"
+        "uuid": "e1fffd90-8e1c-4a73-bf60-8b2c964fcdf2"
     }, 
     "version": "0.40.1"
 }

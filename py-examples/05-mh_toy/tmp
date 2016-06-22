@@ -1,0 +1,5 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+knyquist 17780  0.0  0.0  15580  5000 pts/20   Ss   15:28   0:00 -bash
+knyquist 18333  100  0.2 780364 38044 pts/20   R    16:08  25:27  \_ /home/knyquist/anaconda2/envs/home/bin/python /home/knyquist/anaconda2/envs/home/bin/thinbam -p m54008_160614_165130.subreads.bam -o m54008_160614_165130.no-singleframe-pulses.subreads.bam thin
+knyquist 18410 99.9  0.2 780436 38212 pts/20   R    16:09  24:39  \_ /home/knyquist/anaconda2/envs/home/bin/python /home/knyquist/anaconda2/envs/home/bin/thinbam -p m54075_160614_165313.subreads.bam -o m54075_160614_165313.no-singleframe-pulses.subreads.bam thin
+knyquist 18694  0.0  0.0  10224  1136 pts/20   R+   16:33   0:00  \_ ps uf

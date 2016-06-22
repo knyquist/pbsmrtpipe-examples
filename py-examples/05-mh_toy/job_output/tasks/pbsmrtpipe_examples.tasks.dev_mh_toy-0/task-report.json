@@ -15,7 +15,7 @@
         {
             "id": "workflow_task.run_time",
             "name": null,
-            "value": 99.13319802284241
+            "value": 132.77030611038208
         },
         {
             "id": "workflow_task.exit_code",
@@ -38,5 +38,5 @@
     "plotGroups": [],
     "tables": [],
     "title": "Report workflow_task",
-    "uuid": "cfac3923-2538-4284-b182-39b8dac32452"
+    "uuid": "402e36dc-92e9-4256-a1ba-e774bcb91d55"
 }
